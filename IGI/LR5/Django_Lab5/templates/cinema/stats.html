@@ -1,0 +1,243 @@
+{% extends "cinema/base.html" %}
+
+{% block title %}Статистика Кинотеатра "Звезда"{% endblock %}
+
+{% block extra_css %}
+<style>
+  .dashboard-title {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 0.5rem;
+  }
+
+  .stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  .stat-box {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    border-top: 4px solid var(--primary-color);
+  }
+
+  .stat-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 14px rgba(0,0,0,0.1);
+  }
+
+  .stat-box:nth-child(1) { border-top-color: #4e54c8; }
+  .stat-box:nth-child(2) { border-top-color: #1e88e5; }
+  .stat-box:nth-child(3) { border-top-color: #43a047; }
+  .stat-box:nth-child(4) { border-top-color: #fb8c00; }
+
+  .stat-title {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .stat-title i {
+    margin-right: 8px;
+    color: var(--primary-color);
+    font-size: 18px;
+  }
+
+  .stat-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+
+  .stat-change {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+  }
+
+  .chart-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+
+  .chart-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+  }
+
+  .chart-title i {
+    margin-right: 10px;
+    color: var(--secondary-color);
+  }
+
+  .section-heading {
+    color: var(--primary-color);
+    margin: 30px 0 20px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--light-color);
+  }
+
+  .results table {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .results thead th {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1 class="dashboard-title">Статистика Кинотеатра "Звезда"</h1>
+
+<!-- Statistical Indicators -->
+<h2 class="section-heading">Ключевые показатели</h2>
+<div class="stats-container">
+  <div class="stat-box">
+    <div class="stat-title"><i class="fas fa-film"></i> Всего фильмов</div>
+    <div class="stat-value">{{ total_films }}</div>
+    <span class="stat-change">В нашей коллекции</span>
+  </div>
+  <div class="stat-box">
+    <div class="stat-title"><i class="fas fa-users"></i> Всего клиентов</div>
+    <div class="stat-value">{{ total_customers }}</div>
+    <span class="stat-change">Зарегистрированных пользователей</span>
+  </div>
+  <div class="stat-box">
+    <div class="stat-title"><i class="fas fa-ticket-alt"></i> Всего билетов</div>
+    <div class="stat-value">{{ total_tickets }}</div>
+    <span class="stat-change">Проданных билетов</span>
+  </div>
+  <div class="stat-box">
+    <div class="stat-title"><i class="fas fa-dollar-sign"></i> Общая выручка</div>
+    <div class="stat-value">${{ total_revenue|floatformat:2 }}</div>
+    <span class="stat-change">От продажи билетов</span>
+  </div>
+</div>
+
+<div class="stats-container">
+  <div class="stat-box">
+    <div class="stat-title"><i class="fas fa-tag"></i> Средняя цена билета</div>
+    <div class="stat-value">${{ avg_ticket_price|floatformat:2 }}</div>
+    <span class="stat-change">По всем сеансам</span>
+  </div>
+  <div class="stat-box">
+    <div class="stat-title"><i class="fas fa-balance-scale"></i> Медианная цена</div>
+    <div class="stat-value">${{ median_ticket_price|floatformat:2 }}</div>
+    <span class="stat-change">Наиболее типичная цена</span>
+  </div>
+  <div class="stat-box">
+    <div class="stat-title"><i class="fas fa-birthday-cake"></i> Средний возраст</div>
+    <div class="stat-value">{{ avg_customer_age|floatformat:1 }}</div>
+    <span class="stat-change">Лет (клиенты кинотеатра)</span>
+  </div>
+  <div class="stat-box">
+    <div class="stat-title"><i class="fas fa-star"></i> Популярный жанр</div>
+    <div class="stat-value">{{ most_popular_genre }}</div>
+    <span class="stat-change">По количеству купленных билетов</span>
+  </div>
+</div>
+
+<!-- Charts -->
+<h2 class="section-heading">Графики и диаграммы</h2>
+
+<div class="chart-container">
+  <div class="chart-title"><i class="fas fa-chart-pie"></i> Распределение фильмов по жанрам</div>
+  {% if charts.genre_distribution %}
+    <img src="data:image/png;base64,{{ charts.genre_distribution }}" class="chart-image img-fluid" alt="Распределение по жанрам">
+  {% else %}
+    <p>Нет данных для отображения диаграммы распределения по жанрам.</p>
+  {% endif %}
+</div>
+
+<div class="chart-container">
+  <div class="chart-title"><i class="fas fa-chart-bar"></i> Самые популярные фильмы</div>
+  {% if charts.popular_films %}
+    <img src="data:image/png;base64,{{ charts.popular_films }}" class="chart-image img-fluid" alt="Популярные фильмы">
+  {% else %}
+    <p>Нет данных для отображения графика популярных фильмов.</p>
+  {% endif %}
+</div>
+
+<div class="chart-container">
+  <div class="chart-title"><i class="fas fa-chart-line"></i> Распределение клиентов по возрастным группам</div>
+  {% if charts.age_distribution %}
+    <img src="data:image/png;base64,{{ charts.age_distribution }}" class="chart-image img-fluid" alt="Распределение по возрасту">
+  {% else %}
+    <p>Нет данных для отображения диаграммы распределения по возрасту.</p>
+  {% endif %}
+</div>
+
+<!-- Customers in Alphabetical Order -->
+<h2 class="section-heading">Клиенты (в алфавитном порядке)</h2>
+<div class="results">
+  <table class="table table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th><i class="fas fa-user me-1"></i> Имя пользователя</th>
+        <th><i class="fas fa-envelope me-1"></i> Email</th>
+        <th><i class="fas fa-phone me-1"></i> Номер телефона</th>
+        <th><i class="fas fa-birthday-cake me-1"></i> Возраст</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for customer in customers_alphabetical %}
+      <tr>
+        <td>{{ customer.user.username }}</td>
+        <td>{{ customer.user.email }}</td>
+        <td>{{ customer.phone_number }}</td>
+        <td>{{ customer.age }}</td>
+      </tr>
+      {% empty %}
+      <tr>
+        <td colspan="4" class="text-center">Клиенты не найдены.</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const statBoxes = document.querySelectorAll('.stat-box');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = 1;
+        }
+      });
+    });
+
+    statBoxes.forEach(box => {
+      box.style.opacity = 0;
+      box.style.transition = 'opacity 0.5s ease-in-out';
+      observer.observe(box);
+    });
+  });
+</script>
+{% endblock %}

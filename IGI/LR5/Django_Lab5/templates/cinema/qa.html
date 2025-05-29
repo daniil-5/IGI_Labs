@@ -1,0 +1,232 @@
+{% extends "cinema/base.html" %}
+
+{% block title %}Вопросы и ответы - Кинотеатр "Звезда"{% endblock %}
+
+{% block header %}
+<header class="page-header text-center">
+    <div class="container">
+        <h1 class="display-4">Вопросы и ответы</h1>
+        <p class="lead">Здесь вы найдете ответы на часто задаваемые вопросы</p>
+    </div>
+</header>
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <!-- Intro Section -->
+    <section class="mb-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2 class="section-title">Часто задаваемые вопросы</h2>
+                <p>
+                    Мы собрали ответы на самые популярные вопросы о работе кинотеатра "Звезда",
+                    процессе бронирования билетов и наших услугах. Если вы не нашли ответ на свой вопрос,
+                    вы всегда можете связаться с нами через форму обратной связи или по телефону.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="list-group list-group-horizontal-md overflow-auto pb-2">
+                {% for category in faq_categories %}
+                <a href="#category{{ forloop.counter }}" class="list-group-item list-group-item-action text-center">
+                    {{ category.name }}
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Accordions By Category -->
+    {% for category in faq_categories %}
+    <section class="mb-5" id="category{{ forloop.counter }}">
+        <h3 class="mb-4">{{ category.name }}</h3>
+        <div class="accordion shadow-sm" id="accordion{{ forloop.counter }}">
+            {% for item in category.questions %}
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading{{ forloop.parentloop.counter }}{{ forloop.counter }}">
+                    <button class="accordion-button {% if not forloop.first %}collapsed{% endif %}" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse{{ forloop.parentloop.counter }}{{ forloop.counter }}"
+                            aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}"
+                            aria-controls="collapse{{ forloop.parentloop.counter }}{{ forloop.counter }}">
+                        {{ item.question }}
+                    </button>
+                </h2>
+                <div id="collapse{{ forloop.parentloop.counter }}{{ forloop.counter }}"
+                     class="accordion-collapse collapse {% if forloop.first %}show{% endif %}"
+                     aria-labelledby="heading{{ forloop.parentloop.counter }}{{ forloop.counter }}"
+                     data-bs-parent="#accordion{{ forloop.parentloop.counter }}">
+                    <div class="accordion-body">
+                        {{ item.answer }}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endfor %}
+
+    <!-- Popular Topics Cards -->
+    <section class="mb-5">
+        <h3 class="section-title text-center mb-4">Популярные темы</h3>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center py-4">
+                        <i class="fas fa-ticket-alt fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Бронирование билетов</h5>
+                        <p class="card-text">Информация о процессе бронирования, возврате и обмене билетов.</p>
+                    </div>
+                    <div class="card-footer bg-transparent text-center">
+                        <a href="#category1" class="btn btn-outline-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center py-4">
+                        <i class="fas fa-popcorn fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Услуги кинотеатра</h5>
+                        <p class="card-text">Информация о кинобаре, VIP-залах и других дополнительных услугах.</p>
+                    </div>
+                    <div class="card-footer bg-transparent text-center">
+                        <a href="#category2" class="btn btn-outline-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center py-4">
+                        <i class="fas fa-star fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Программа лояльности</h5>
+                        <p class="card-text">Информация о системе накопления баллов и привилегиях постоянных клиентов.</p>
+                    </div>
+                    <div class="card-footer bg-transparent text-center">
+                        <a href="#category4" class="btn btn-outline-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact and Support -->
+    <section class="mb-5">
+        <div class="card border-0 shadow-sm">
+            <div class="card-body p-4">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h3>Нужна дополнительная помощь?</h3>
+                        <p class="mb-md-0">
+                            Наша служба поддержки готова ответить на ваши вопросы.
+                            Свяжитесь с нами по телефону или электронной почте.
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-md-end">
+                        <div class="d-grid gap-2">
+                            <a href="tel:+375291234567" class="btn btn-outline-primary">
+                                <i class="fas fa-phone me-2"></i>+375 (29) 123-45-67
+                            </a>
+                            <a href="mailto:support@cinema-star.by" class="btn btn-outline-secondary">
+                                <i class="fas fa-envelope me-2"></i>support@cinema-star.by
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Ask Question Modal -->
+<div class="modal fade" id="questionModal" tabindex="-1" aria-labelledby="questionModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="questionModalLabel">Задать вопрос</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Ваше имя</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email для ответа</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="category" class="form-label">Категория вопроса</label>
+                        <select class="form-select" id="category" required>
+                            <option value="" selected disabled>Выберите категорию</option>
+                            {% for category in faq_categories %}
+                            <option value="{{ category.name }}">{{ category.name }}</option>
+                            {% endfor %}
+                            <option value="other">Другое</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="question" class="form-label">Ваш вопрос</label>
+                        <textarea class="form-control" id="question" rows="4" required></textarea>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="privacyAgree" required>
+                        <label class="form-check-label" for="privacyAgree">
+                            Я согласен с <a href="/privacy/">политикой конфиденциальности</a>
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
+                <button type="button" class="btn btn-primary">Отправить</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+.page-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 3rem 0;
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: var(--secondary-color);
+}
+
+.section-title.text-center::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.list-group-horizontal-md {
+    flex-wrap: nowrap;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(26, 35, 126, 0.25);
+}
+
+.fa-popcorn:before {
+    content: "\f818"; /* This is the content code for popcorn icon in Font Awesome */
+}
+{% endblock %}

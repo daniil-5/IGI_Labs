@@ -1,0 +1,273 @@
+{% extends "cinema/base.html" %}
+
+{% block title %}О компании - Кинотеатр "Звезда"{% endblock %}
+
+{% block header %}
+<!-- Заголовок страницы -->
+<header class="page-header text-center">
+    <div class="container">
+        <h1 class="display-4">О нашей компании</h1>
+        <p class="lead">Узнайте историю и ценности кинотеатра "Звезда"</p>
+    </div>
+</header>
+{% endblock %}
+
+{% block content %}
+<!-- О нас -->
+<section class="mb-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <h2 class="section-title">Наша миссия</h2>
+            <p>Кинотеатр "Звезда" - это не просто место для просмотра фильмов. Это особое пространство, где каждый зритель может погрузиться в удивительный мир кино, испытать новые эмоции и открыть для себя увлекательные истории.</p>
+            <p>Наша миссия - создавать незабываемые впечатления от просмотра фильмов в комфортной и современной обстановке, предлагая лучшие новинки кинематографа и классические картины.</p>
+            <p>Мы стремимся быть не просто кинотеатром, а культурным центром, объединяющим любителей кино разных поколений и предпочтений.</p>
+        </div>
+        <div class="col-lg-6">
+            <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Кинотеатр" class="img-fluid rounded shadow">
+        </div>
+    </div>
+</section>
+
+<!-- История -->
+<section class="mb-5">
+    <h2 class="section-title text-center mb-5">История кинотеатра</h2>
+
+    <div class="timeline">
+        <div class="timeline-container left">
+            <div class="timeline-content">
+                <h3>2015</h3>
+                <p>Основание кинотеатра "Звезда". Открытие первого зала на 120 мест.</p>
+            </div>
+        </div>
+        <div class="timeline-container right">
+            <div class="timeline-content">
+                <h3>2017</h3>
+                <p>Расширение до 3 залов. Внедрение технологии 3D-показа и системы звука Dolby Atmos.</p>
+            </div>
+        </div>
+        <div class="timeline-container left">
+            <div class="timeline-content">
+                <h3>2019</h3>
+                <p>Открытие VIP-зала с повышенным комфортом. Запуск собственного мобильного приложения.</p>
+            </div>
+        </div>
+        <div class="timeline-container right">
+            <div class="timeline-content">
+                <h3>2021</h3>
+                <p>Открытие детского зала с интерактивными развлечениями. Обновление всего оборудования до 4K.</p>
+            </div>
+        </div>
+        <div class="timeline-container left">
+            <div class="timeline-content">
+                <h3>2023</h3>
+                <p>Открытие 5-го зала IMAX. Получение награды "Лучший кинотеатр города".</p>
+            </div>
+        </div>
+        <div class="timeline-container right">
+            <div class="timeline-content">
+                <h3>2025</h3>
+                <p>Текущее развитие: запуск новой программы лояльности и планы по открытию второго кинотеатра.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Наша команда -->
+<section class="mb-5">
+    <h2 class="section-title text-center mb-5">Наша команда</h2>
+    <div class="row">
+        <div class="col-lg-4 col-md-6">
+            <div class="card team-card text-center">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="CEO" class="card-img-top mx-auto">
+                <div class="card-body">
+                    <h5 class="card-title">Александр Иванов</h5>
+                    <p class="card-text text-muted">Генеральный директор</p>
+                    <p class="card-text">Более 15 лет опыта в индустрии развлечений. Увлечен созданием лучших впечатлений для зрителей.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card team-card text-center">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Marketing Director" class="card-img-top mx-auto">
+                <div class="card-body">
+                    <h5 class="card-title">Елена Петрова</h5>
+                    <p class="card-text text-muted">Директор по маркетингу</p>
+                    <p class="card-text">Создаёт яркие маркетинговые кампании и специальные мероприятия для наших зрителей.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card team-card text-center">
+                <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Technical Director" class="card-img-top mx-auto">
+                <div class="card-body">
+                    <h5 class="card-title">Михаил Сидоров</h5>
+                    <p class="card-text text-muted">Технический директор</p>
+                    <p class="card-text">Следит за техническим совершенством нашего оборудования и качеством показа.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Контакты -->
+<section>
+    <h2 class="section-title text-center mb-5">Контакты</h2>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <h4><i class="fas fa-map-marker-alt text-primary me-2"></i> Адрес</h4>
+                    <p>ул. Кинематографистов, 123<br>г. Минск, 220000</p>
+
+                    <h4 class="mt-4"><i class="fas fa-phone text-primary me-2"></i> Телефон</h4>
+                    <p>+375 (29) 123-45-67<br>+375 (33) 765-43-21</p>
+
+                    <h4 class="mt-4"><i class="fas fa-envelope text-primary me-2"></i> Email</h4>
+                    <p>info@cinema-star.by<br>booking@cinema-star.by</p>
+
+                    <h4 class="mt-4"><i class="fas fa-clock text-primary me-2"></i> Режим работы</h4>
+                    <p>Ежедневно: 10:00 - 23:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37595.53386033885!2d27.555899397068066!3d53.90453286301903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQuiwg0JHQtdC70LDRgNGD0YHRjA!5e0!3m2!1sru!2s!4v1621521486202!5m2!1sru!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="rounded"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_css %}
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: var(--primary-color);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline-container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.timeline-container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -12px;
+    background-color: white;
+    border: 4px solid var(--secondary-color);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+.right::after {
+    left: -13px;
+}
+
+.timeline-content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.team-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 768px) {
+    .timeline::after {
+        left: 31px;
+    }
+
+    .timeline-container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .timeline-container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after, .right::after {
+        left: 18px;
+    }
+
+    .right {
+        left: 0%;
+    }
+}
+{% endblock %}

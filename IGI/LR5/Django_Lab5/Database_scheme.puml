@@ -1,0 +1,130 @@
+@startuml Cinema Management System Database Schema
+
+!define primary_key(x) <b><color:#e6194b>x</color></b>
+!define foreign_key(x) <color:#3cb44b>x</color>
+!define required(x) <b>x</b>
+!define unique(x) <u>x</u>
+!define nullable(x) <i>x</i>
+
+' Use a more modern style
+skinparam linetype ortho
+skinparam classFontSize 12
+skinparam classAttributeFontSize 11
+skinparam classBackgroundColor #f8f9fa
+skinparam classBorderColor #343a40
+skinparam stereotypeCBackgroundColor #f8f9fa
+skinparam stereotypeCBorderColor #343a40
+
+' Base Django User Model
+class "User" as User {
+    primary_key(id): Integer
+    required(username): Varchar(150)
+    nullable(first_name): Varchar(150)
+    nullable(last_name): Varchar(150)
+    required(email): Varchar(254)
+    required(password): Varchar(128)
+    required(is_staff): Boolean
+    required(is_active): Boolean
+    required(is_superuser): Boolean
+    required(date_joined): DateTime
+    required(last_login): DateTime
+}
+
+' Cinema Models
+class "Genre" as Genre {
+    primary_key(id): Integer
+    required(unique(name)): Varchar(100)
+    nullable(description): Text
+}
+
+class "Country" as Country {
+    primary_key(id): Integer
+    required(unique(name)): Varchar(100)
+}
+
+class "Film" as Film {
+    primary_key(id): Integer
+    required(title): Varchar(200)
+    nullable(original_title): Varchar(200)
+    required(duration): PositiveInteger
+    required(release_year): PositiveInteger [>= 1895]
+    required(plot): Text
+    required(description): Text
+    nullable(poster): ImageField
+    required(age_restriction): PositiveInteger [Default: 0]
+    required(created_at): DateTime [auto_now_add]
+    required(updated_at): DateTime [auto_now]
+    foreign_key(country_id): Integer [nullable]
+}
+
+class "Film_Genres" as FilmGenres {
+    primary_key(id): Integer
+    foreign_key(film_id): Integer
+    foreign_key(genre_id): Integer
+}
+
+class "Review" as Review {
+    primary_key(id): Integer
+    required(text): Text
+    required(rating): PositiveInteger [>= 1, Default: 5]
+    required(created_at): DateTime [auto_now_add]
+    foreign_key(film_id): Integer
+    foreign_key(user_id): Integer
+}
+
+class "CinemaHall" as CinemaHall {
+    primary_key(id): Integer
+    required(name): Varchar(100)
+    required(capacity): PositiveInteger
+    nullable(description): Text
+}
+
+class "ShowTime" as ShowTime {
+    primary_key(id): Integer
+    required(start_time): DateTime
+    required(end_time): DateTime
+    required(price): Decimal(8,2)
+    foreign_key(film_id): Integer
+    foreign_key(hall_id): Integer
+}
+
+class "Discount" as Discount {
+    primary_key(id): Integer
+    required(name): Varchar(100)
+    required(description): Text
+    required(percentage): PositiveInteger
+    required(valid_from): DateTime
+    required(valid_to): DateTime
+}
+
+class "Customer" as Customer {
+    primary_key(id): Integer
+    required(phone_number): Varchar(19) [Format: +375 (XX) XXX-XX-XX]
+    required(birth_date): Date
+    foreign_key(user_id): Integer [unique]
+}
+
+class "Ticket" as Ticket {
+    primary_key(id): Integer
+    required(seat_row): PositiveInteger
+    required(seat_number): PositiveInteger
+    required(purchase_date): DateTime [auto_now_add]
+    foreign_key(showtime_id): Integer
+    foreign_key(customer_id): Integer [nullable]
+    foreign_key(discount_id): Integer [nullable]
+}
+
+' Relationships
+Film "1" -- "0..*" FilmGenres
+Genre "1" -- "0..*" FilmGenres
+Country "0..1" -- "0..*" Film
+Film "1" -- "0..*" Review
+User "1" -- "0..*" Review
+Film "1" -- "0..*" ShowTime
+CinemaHall "1" -- "0..*" ShowTime
+ShowTime "1" -- "0..*" Ticket
+Customer "0..1" -- "0..*" Ticket
+Discount "0..1" -- "0..*" Ticket
+User "1" -- "0..1" Customer
+
+@enduml

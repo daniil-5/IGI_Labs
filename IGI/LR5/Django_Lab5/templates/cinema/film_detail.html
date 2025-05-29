@@ -1,0 +1,191 @@
+{% extends "cinema/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container my-4">
+    <div class="row">
+        <!-- Film details section -->
+        <div class="col-md-4">
+            {% if film.poster %}
+            <img src="{{ film.poster.url }}" class="img-fluid rounded" alt="{{ film.title }}">
+            {% else %}
+            <img src="{% static 'images/no_poster.jpg' %}" class="img-fluid rounded" alt="No poster">
+            {% endif %}
+        </div>
+
+        <div class="col-md-8">
+            <h1>{{ film.title }}</h1>
+            {% if film.original_title %}
+            <h4 class="text-muted">{{ film.original_title }}</h4>
+            {% endif %}
+
+            <p><strong>Genres:</strong>
+                {% for genre in film.genres.all %}
+                    {{ genre.name }}{% if not forloop.last %}, {% endif %}
+                {% endfor %}
+            </p>
+            <p><strong>Country:</strong> {{ film.country.name }}</p>
+            <p><strong>Release Year:</strong> {{ film.release_year }}</p>
+            <p><strong>Duration:</strong> {{ film.duration }} min</p>
+            <p><strong>Age Restriction:</strong> {{ film.age_restriction }}+</p>
+
+            {% if film.description %}
+            <h4>Description</h4>
+            <p>{{ film.description }}</p>
+            {% endif %}
+
+            {% if film.plot %}
+            <h4>Plot</h4>
+            <p>{{ film.plot }}</p>
+            {% endif %}
+
+            <!-- Add review button -->
+            {% if user.is_authenticated %}
+                {% if user_review %}
+                <button type="button" class="btn btn-warning mt-3" data-bs-toggle="modal" data-bs-target="#editReviewModal">
+                    Edit My Review
+                </button>
+                {% else %}
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#addReviewModal">
+                    Add Review
+                </button>
+                {% endif %}
+            {% else %}
+                <a href="{% url 'login' %}?next={{ request.path }}" class="btn btn-secondary mt-3">Login to Review</a>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Reviews section -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <h2>Reviews ({{ reviews.count }})</h2>
+            <hr>
+
+            {% for review in reviews %}
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <h5 class="card-title">
+                            {{ review.user.username }}
+                            <span class="badge bg-primary">{{ review.rating }}/5</span>
+                        </h5>
+                        <small class="text-muted">{{ review.created_at|date:"M d, Y" }}</small>
+                    </div>
+                    <p class="card-text">{{ review.text }}</p>
+
+                    {% if review.user == request.user %}
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#editReviewModal">
+                            Edit
+                        </button>
+                        <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#deleteReviewModal">
+                            Delete
+                        </button>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% empty %}
+            <p>No reviews yet. Be the first to review this film!</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Add Review Modal -->
+    <div class="modal fade" id="addReviewModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Review: {{ film.title }}</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form method="post" action="{% url 'add_review' film.id %}">
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            <label for="rating" class="form-label">Rating (1-5)</label>
+                            <select class="form-select" id="rating" name="rating" required>
+                                <option value="">Select rating</option>
+                                <option value="1">1 - Poor</option>
+                                <option value="2">2 - Fair</option>
+                                <option value="3">3 - Good</option>
+                                <option value="4">4 - Very Good</option>
+                                <option value="5">5 - Excellent</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="review_text" class="form-label">Your Review</label>
+                            <textarea class="form-control" id="review_text" name="text" rows="4" required></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Submit Review</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Review Modal -->
+    {% if user_review %}
+    <div class="modal fade" id="editReviewModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Review: {{ film.title }}</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form method="post" action="{% url 'add_review' film.id %}">
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            <label for="edit_rating" class="form-label">Rating (1-5)</label>
+                            <select class="form-select" id="edit_rating" name="rating" required>
+                                <option value="">Select rating</option>
+                                <option value="1" {% if user_review.rating == 1 %}selected{% endif %}>1 - Poor</option>
+                                <option value="2" {% if user_review.rating == 2 %}selected{% endif %}>2 - Fair</option>
+                                <option value="3" {% if user_review.rating == 3 %}selected{% endif %}>3 - Good</option>
+                                <option value="4" {% if user_review.rating == 4 %}selected{% endif %}>4 - Very Good</option>
+                                <option value="5" {% if user_review.rating == 5 %}selected{% endif %}>5 - Excellent</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="edit_review_text" class="form-label">Your Review</label>
+                            <textarea class="form-control" id="edit_review_text" name="text" rows="4" required>{{ user_review.text }}</textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Update Review</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Delete Review Modal -->
+    <div class="modal fade" id="deleteReviewModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Delete Review</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure you want to delete your review for "{{ film.title }}"?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <form method="post" action="{% url 'delete_review' film.id %}">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger">Delete Review</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

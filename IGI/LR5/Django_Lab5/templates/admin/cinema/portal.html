@@ -1,0 +1,268 @@
+{% extends "admin/base_site.html" %}
+{% load static %}
+
+{% block extrastyle %}
+<style>
+  #content-main {
+    float: none;
+    width: 100%;
+  }
+  .portal-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .hero-section {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .section-title {
+    border-bottom: 2px solid #79aec8;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #417690;
+  }
+
+  .film-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+
+  .film-card {
+    flex: 0 0 20%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+
+  .film-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .showtimes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+
+  .showtimes-table th, .showtimes-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .showtimes-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  .showtimes-table tr:hover {
+    background-color: #f9f9f9;
+  }
+
+  .calendar-section {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .calendar-table th, .calendar-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  .calendar-table th {
+    background-color: #f2f2f2;
+  }
+
+  .today {
+    background-color: #79aec8;
+    color: white;
+    font-weight: bold;
+  }
+
+  .weather-widget {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .movie-news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+
+  .movie-news-card {
+    flex: 0 0 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+
+  .movie-news-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .movie-news-content {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 0 0 5px 5px;
+  }
+
+  @media (max-width: 992px) {
+    .film-card, .movie-news-card {
+      flex: 0 0 33.33%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .film-card, .movie-news-card {
+      flex: 0 0 50%;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .film-card, .movie-news-card {
+      flex: 0 0 100%;
+    }
+  }
+</style>
+{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+  <a href="{% url 'public_admin:index' %}">Home</a> &rsaquo; Cinema Portal
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="portal-container">
+  <!-- Hero Section with Date, Time and Weather -->
+  <div class="hero-section">
+    <div class="row">
+      <div class="col-md-8">
+        <p class="lead">Today is {{ current_date|date:"l, F j, Y" }}</p>
+        <p>Current time: {{ current_date|time:"H:i:s" }} ({{ current_timezone }})</p>
+      </div>
+      <div class="col-md-4">
+        {% if weather %}
+        <div class="weather-widget">
+          {% if weather.icon %}
+          <img src="http://openweathermap.org/img/wn/{{ weather.icon }}@2x.png" alt="Weather icon">
+          {% endif %}
+          <div style="margin-left: 15px;">
+            <h4>Weather in {{ weather.city }}</h4>
+            <h3>{{ weather.temperature }}°C</h3>
+            <p>{{ weather.description|title }}</p>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+<div class="row">
+    <!-- Calendar Section -->
+    <div class="col-md-5">
+      <div class="calendar-section">
+        <h2 class="section-title">{{ current_date|date:"F Y" }}</h2>
+        <table class="calendar-table">
+          <thead>
+            <tr>
+              <th>Mon</th>
+              <th>Tue</th>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+              <th>Sun</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for week in calendar %}
+            <tr>
+              {% for day in week %}
+              <td {% if day == current_date.day %}class="today"{% endif %}>
+                {% if day != 0 %}{{ day }}{% endif %}
+              </td>
+              {% endfor %}
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  <!-- Featured Films Section -->
+  <section>
+    <h2 class="section-title">Now in cinema films</h2>
+    <div class="film-grid">
+      {% for film in featured_films %}
+      <div class="film-card">
+        {% if film.poster %}
+        <img src="{{ film.poster.url }}" alt="{{ film.title }}">
+        {% else %}
+        <div style="height: 200px; background-color: #eee; display: flex; justify-content: center; align-items: center; border-radius: 5px;">
+          <span>No poster</span>
+        </div>
+        {% endif %}
+        <h5>{{ film.title }}</h5>
+        <p>{{ film.release_year }}</p>
+        <a href="{% url 'public_admin:cinema_film_change' film.id %}" class="button">View Details</a>
+      </div>
+      {% empty %}
+      <p>No featured films available.</p>
+      {% endfor %}
+    </div>
+  </section>
+
+    <!-- Movie News Section -->
+    <div class="col-md-7">
+      <h2 class="section-title">Movie News</h2>
+      <div class="movie-news-grid">
+        {% for movie in movie_news %}
+        <div class="movie-news-card">
+          {% if movie.poster_path %}
+          <img src="https://image.tmdb.org/t/p/w500{{ movie.poster_path }}" alt="{{ movie.title }}">
+          {% else %}
+          <div style="height: 200px; background-color: #eee; display: flex; justify-content: center; align-items: center; border-radius: 5px 5px 0 0;">
+            <span>No poster</span>
+          </div>
+          {% endif %}
+          <div class="movie-news-content">
+            <h5>{{ movie.title }}</h5>
+            <p>
+              <strong>Release:</strong> {{ movie.release_date }}<br>
+              <strong>Rating:</strong> {{ movie.vote_average }} ★
+            </p>
+            <p>{{ movie.overview|truncatechars:100 }}</p>
+          </div>
+        </div>
+        {% empty %}
+        <p>No movie news available.</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

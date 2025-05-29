@@ -1,0 +1,1689 @@
+INFO 2025-05-21 15:12:04,308 models Genre created: Action
+INFO 2025-05-21 15:12:04,308 models Country created: USA
+INFO 2025-05-21 15:12:04,308 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:04,310 models Genre created: Action
+INFO 2025-05-21 15:12:04,310 models Country created: USA
+INFO 2025-05-21 15:12:04,310 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:04,311 models Genre created: Action
+INFO 2025-05-21 15:12:04,311 models Country created: USA
+INFO 2025-05-21 15:12:04,311 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:04,313 models Genre created: Action
+INFO 2025-05-21 15:12:04,313 models Country created: USA
+INFO 2025-05-21 15:12:04,313 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:04,315 models Country created: USA
+INFO 2025-05-21 15:12:04,315 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:04,315 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 15:12:04,315 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 15:12:04.315582+00:00
+INFO 2025-05-21 15:12:04,316 models Country created: USA
+INFO 2025-05-21 15:12:04,316 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:04,316 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 15:12:04,316 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 15:12:04.316580+00:00
+INFO 2025-05-21 15:12:04,316 models Genre created: Action
+INFO 2025-05-21 15:12:04,317 models Country created: USA
+INFO 2025-05-21 15:12:04,317 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:04,317 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 15:12:04,317 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 15:12:04.317448+00:00
+INFO 2025-05-21 15:12:04,458 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 15:12:04,605 models Genre created: Action
+INFO 2025-05-21 15:12:04,605 models Country created: USA
+INFO 2025-05-21 15:12:04,605 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:04,606 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 15:12:04,606 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 15:12:04.606233+00:00
+INFO 2025-05-21 15:12:04,744 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 15:12:04,745 models Genre created: Action
+INFO 2025-05-21 15:12:04,745 models Country created: USA
+INFO 2025-05-21 15:12:04,745 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:04,745 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 15:12:04,746 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 15:12:04.745905+00:00
+INFO 2025-05-21 15:12:04,885 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 15:12:04,886 models Genre created: Action
+INFO 2025-05-21 15:12:04,886 models Country created: USA
+INFO 2025-05-21 15:12:04,886 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:04,886 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 15:12:04,886 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 15:12:04.886607+00:00
+INFO 2025-05-21 15:12:05,025 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 15:12:05,031 models Genre created: Action
+INFO 2025-05-21 15:12:05,031 models Country created: USA
+INFO 2025-05-21 15:12:05,031 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:05,032 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 15:12:05,032 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 15:12:05.032173+00:00
+INFO 2025-05-21 15:12:05,170 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 15:12:05,171 models Genre created: Action
+INFO 2025-05-21 15:12:05,171 models Country created: USA
+INFO 2025-05-21 15:12:05,171 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:05,172 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 15:12:05,172 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 15:12:05.172123+00:00
+INFO 2025-05-21 15:12:05,311 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 15:12:05,311 models Genre created: Action
+INFO 2025-05-21 15:12:05,312 models Country created: USA
+INFO 2025-05-21 15:12:05,312 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:05,312 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 15:12:05,312 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 15:12:05.312525+00:00
+INFO 2025-05-21 15:12:05,455 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 15:12:05,456 models Genre created: Action
+INFO 2025-05-21 15:12:05,456 models Country created: USA
+INFO 2025-05-21 15:12:05,456 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:05,456 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 15:12:05,456 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 15:12:05.456631+00:00
+INFO 2025-05-21 15:12:05,595 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 15:12:05,596 models Genre created: Action
+INFO 2025-05-21 15:12:05,596 models Country created: USA
+INFO 2025-05-21 15:12:05,596 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:05,597 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 15:12:05,597 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 15:12:05.597072+00:00
+INFO 2025-05-21 15:12:05,733 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 15:12:05,734 models Genre created: Action
+INFO 2025-05-21 15:12:05,734 models Country created: USA
+INFO 2025-05-21 15:12:05,734 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:05,735 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 15:12:05,735 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 15:12:05.735172+00:00
+INFO 2025-05-21 15:12:05,875 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 15:12:06,023 models Genre created: Action
+INFO 2025-05-21 15:12:06,023 models Country created: USA
+INFO 2025-05-21 15:12:06,023 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 15:12:06,024 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 15:12:06,024 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 15:12:06.024250+00:00
+INFO 2025-05-21 15:12:06,173 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 15:12:06,477 models Ticket created: ID 1 for film 'Test Film' at 2025-05-22 15:12:06.024250+00:00 for customer testuser
+INFO 2025-05-21 15:12:06,477 models Ticket created: ID 2 for film 'Test Film' at 2025-05-22 15:12:06.024250+00:00 for customer testuser
+INFO 2025-05-21 15:12:06,478 models Ticket created: ID 3 for film 'Test Film' at 2025-05-22 15:12:06.024250+00:00 for customer testuser
+INFO 2025-05-21 15:15:31,092 models Country created: Ukrain
+INFO 2025-05-21 15:16:39,499 models Film updated: Laugh Out Loud (ID: 2)
+INFO 2025-05-21 15:17:09,344 models Film updated: Laugh Out Loud (ID: 2)
+INFO 2025-05-21 15:17:24,499 models Film updated: Laugh Out Loud (ID: 2)
+INFO 2025-05-21 15:22:24,252 models Country updated: Ukraine
+INFO 2025-05-21 19:01:12,405 models Genre created: Action
+INFO 2025-05-21 19:01:12,405 models Country created: USA
+INFO 2025-05-21 19:01:12,406 models Genre created: Action
+INFO 2025-05-21 19:01:12,406 models Country created: USA
+INFO 2025-05-21 19:01:12,407 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:12,407 models Genre created: Action
+INFO 2025-05-21 19:01:12,408 models Country created: USA
+INFO 2025-05-21 19:01:12,411 models Genre created: Action
+INFO 2025-05-21 19:01:12,411 models Country created: USA
+INFO 2025-05-21 19:01:50,760 models Genre created: Action
+INFO 2025-05-21 19:01:50,760 models Country created: USA
+INFO 2025-05-21 19:01:50,762 models Genre created: Action
+INFO 2025-05-21 19:01:50,762 models Country created: USA
+INFO 2025-05-21 19:01:50,762 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:50,763 models Genre created: Action
+INFO 2025-05-21 19:01:50,763 models Country created: USA
+INFO 2025-05-21 19:01:50,767 models Genre created: Action
+INFO 2025-05-21 19:01:50,767 models Country created: USA
+INFO 2025-05-21 19:01:50,768 models Country created: USA
+INFO 2025-05-21 19:01:50,768 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:50,768 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:01:50,769 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:01:50.769025+00:00
+INFO 2025-05-21 19:01:50,769 models Country created: USA
+INFO 2025-05-21 19:01:50,769 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:50,769 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:01:50,769 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:01:50.769656+00:00
+INFO 2025-05-21 19:01:50,770 models Genre created: Action
+INFO 2025-05-21 19:01:50,770 models Country created: USA
+INFO 2025-05-21 19:01:50,770 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:50,770 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:01:50,770 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:01:50.770463+00:00
+INFO 2025-05-21 19:01:50,912 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:01:51,063 models Genre created: Action
+INFO 2025-05-21 19:01:51,063 models Country created: USA
+INFO 2025-05-21 19:01:51,063 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:51,064 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:01:51,064 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:01:51.064049+00:00
+INFO 2025-05-21 19:01:51,202 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:01:51,203 models Genre created: Action
+INFO 2025-05-21 19:01:51,203 models Country created: USA
+INFO 2025-05-21 19:01:51,203 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:51,203 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:01:51,203 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:01:51.203683+00:00
+INFO 2025-05-21 19:01:51,341 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:01:51,342 models Genre created: Action
+INFO 2025-05-21 19:01:51,342 models Country created: USA
+INFO 2025-05-21 19:01:51,342 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:51,342 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:01:51,343 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:01:51.342912+00:00
+INFO 2025-05-21 19:01:51,480 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:01:51,490 models Genre created: Action
+INFO 2025-05-21 19:01:51,490 models Country created: USA
+INFO 2025-05-21 19:01:51,491 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:51,491 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:01:51,491 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:01:51.491276+00:00
+INFO 2025-05-21 19:01:51,628 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:01:51,629 models Genre created: Action
+INFO 2025-05-21 19:01:51,630 models Country created: USA
+INFO 2025-05-21 19:01:51,633 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:51,633 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:01:51,634 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:01:51.634686+00:00
+INFO 2025-05-21 19:01:51,774 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:01:51,775 models Genre created: Action
+INFO 2025-05-21 19:01:51,775 models Country created: USA
+INFO 2025-05-21 19:01:51,775 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:51,776 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:01:51,776 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:01:51.776078+00:00
+INFO 2025-05-21 19:01:51,915 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:01:51,916 models Genre created: Action
+INFO 2025-05-21 19:01:51,916 models Country created: USA
+INFO 2025-05-21 19:01:51,916 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:51,916 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:01:51,917 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:01:51.916882+00:00
+INFO 2025-05-21 19:01:52,055 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:01:52,056 models Genre created: Action
+INFO 2025-05-21 19:01:52,056 models Country created: USA
+INFO 2025-05-21 19:01:52,056 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:52,057 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:01:52,057 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:01:52.057066+00:00
+INFO 2025-05-21 19:01:52,194 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:01:52,195 models Genre created: Action
+INFO 2025-05-21 19:01:52,196 models Country created: USA
+INFO 2025-05-21 19:01:52,196 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:52,196 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:01:52,196 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:01:52.196464+00:00
+INFO 2025-05-21 19:01:52,335 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:01:52,475 models Genre created: Action
+INFO 2025-05-21 19:01:52,476 models Country created: USA
+INFO 2025-05-21 19:01:52,476 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:01:52,476 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:01:52,476 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:01:52.476532+00:00
+INFO 2025-05-21 19:01:52,616 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:01:52,894 models Ticket created: ID 1 for film 'Test Film' at 2025-05-22 16:01:52.476532+00:00 for customer testuser
+INFO 2025-05-21 19:01:52,894 models Ticket created: ID 2 for film 'Test Film' at 2025-05-22 16:01:52.476532+00:00 for customer testuser
+INFO 2025-05-21 19:01:52,894 models Ticket created: ID 3 for film 'Test Film' at 2025-05-22 16:01:52.476532+00:00 for customer testuser
+INFO 2025-05-21 19:03:53,387 models Genre created: Action
+INFO 2025-05-21 19:03:53,387 models Country created: USA
+INFO 2025-05-21 19:03:53,389 models Genre created: Action
+INFO 2025-05-21 19:03:53,389 models Country created: USA
+INFO 2025-05-21 19:03:53,389 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:03:53,390 models Genre created: Action
+INFO 2025-05-21 19:03:53,390 models Country created: USA
+INFO 2025-05-21 19:03:53,393 models Genre created: Action
+INFO 2025-05-21 19:03:53,394 models Country created: USA
+INFO 2025-05-21 19:03:53,395 models Country created: USA
+INFO 2025-05-21 19:03:53,395 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:03:53,395 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:03:53,396 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:03:53.395514+00:00
+INFO 2025-05-21 19:03:53,396 models Country created: USA
+INFO 2025-05-21 19:03:53,396 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:03:53,396 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:03:53,396 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:03:53.396783+00:00
+INFO 2025-05-21 19:03:53,397 models Genre created: Action
+INFO 2025-05-21 19:03:53,397 models Country created: USA
+INFO 2025-05-21 19:03:53,397 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:03:53,398 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:03:53,398 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:03:53.398056+00:00
+INFO 2025-05-21 19:03:53,538 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:03:53,690 models Genre created: Action
+INFO 2025-05-21 19:03:53,690 models Country created: USA
+INFO 2025-05-21 19:03:53,691 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:03:53,691 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:03:53,691 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:03:53.691305+00:00
+INFO 2025-05-21 19:03:53,830 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:03:53,830 models Genre created: Action
+INFO 2025-05-21 19:03:53,830 models Country created: USA
+INFO 2025-05-21 19:03:53,831 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:03:53,831 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:03:53,831 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:03:53.831553+00:00
+INFO 2025-05-21 19:03:53,971 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:03:53,972 models Genre created: Action
+INFO 2025-05-21 19:03:53,972 models Country created: USA
+INFO 2025-05-21 19:03:53,972 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:03:53,973 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:03:53,973 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:03:53.973115+00:00
+INFO 2025-05-21 19:03:54,112 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:03:54,117 models Genre created: Action
+INFO 2025-05-21 19:03:54,117 models Country created: USA
+INFO 2025-05-21 19:03:54,117 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:03:54,118 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:03:54,118 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:03:54.118312+00:00
+INFO 2025-05-21 19:03:54,256 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:03:54,259 models Genre created: Action
+INFO 2025-05-21 19:03:54,259 models Country created: USA
+INFO 2025-05-21 19:03:54,259 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:03:54,259 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:03:54,259 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:03:54.259682+00:00
+INFO 2025-05-21 19:03:54,401 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:03:54,401 models Genre created: Action
+INFO 2025-05-21 19:03:54,401 models Country created: USA
+INFO 2025-05-21 19:03:54,402 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:03:54,402 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:03:54,402 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:03:54.402413+00:00
+INFO 2025-05-21 19:03:54,539 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:03:54,539 models Genre created: Action
+INFO 2025-05-21 19:03:54,540 models Country created: USA
+INFO 2025-05-21 19:03:54,540 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:03:54,540 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:03:54,540 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:03:54.540456+00:00
+INFO 2025-05-21 19:03:54,679 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:03:54,680 models Genre created: Action
+INFO 2025-05-21 19:03:54,680 models Country created: USA
+INFO 2025-05-21 19:03:54,680 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:03:54,680 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:03:54,680 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:03:54.680622+00:00
+INFO 2025-05-21 19:03:54,820 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:03:54,821 models Genre created: Action
+INFO 2025-05-21 19:03:54,821 models Country created: USA
+INFO 2025-05-21 19:03:54,821 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:03:54,821 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:03:54,821 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:03:54.821598+00:00
+INFO 2025-05-21 19:03:54,961 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:03:55,101 models Genre created: Action
+INFO 2025-05-21 19:03:55,101 models Country created: USA
+INFO 2025-05-21 19:03:55,102 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 19:03:55,102 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 19:03:55,102 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 16:03:55.102264+00:00
+INFO 2025-05-21 19:03:55,241 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 19:03:55,518 models Ticket created: ID 1 for film 'Test Film' at 2025-05-22 16:03:55.102264+00:00 for customer testuser
+INFO 2025-05-21 19:03:55,518 models Ticket created: ID 2 for film 'Test Film' at 2025-05-22 16:03:55.102264+00:00 for customer testuser
+INFO 2025-05-21 19:03:55,518 models Ticket created: ID 3 for film 'Test Film' at 2025-05-22 16:03:55.102264+00:00 for customer testuser
+INFO 2025-05-21 19:24:23,173 views Index page accessed
+ERROR 2025-05-21 19:24:23,476 api_services TMDB API Error: Status code 401
+INFO 2025-05-21 19:24:23,914 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-21 19:38:56,068 views Index page accessed
+ERROR 2025-05-21 19:38:56,651 api_services TMDB API Error: Status code 401
+INFO 2025-05-21 19:38:56,831 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-21 19:42:42,757 views Index page accessed
+ERROR 2025-05-21 19:42:43,183 api_services TMDB API Error: Status code 401
+INFO 2025-05-21 19:42:43,320 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-21 19:42:45,030 views Index page accessed
+ERROR 2025-05-21 19:42:45,267 api_services TMDB API Error: Status code 401
+INFO 2025-05-21 19:42:45,442 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-21 20:16:50,981 models CinemaHall updated: VIP Hall (ID: 4)
+INFO 2025-05-21 20:17:18,943 models Genre created: Action
+INFO 2025-05-21 20:17:18,944 models Country created: USA
+INFO 2025-05-21 20:17:18,945 models Genre created: Action
+INFO 2025-05-21 20:17:18,945 models Country created: USA
+INFO 2025-05-21 20:17:18,945 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 20:17:18,946 models Genre created: Action
+INFO 2025-05-21 20:17:18,946 models Country created: USA
+INFO 2025-05-21 20:17:18,952 models Genre created: Action
+INFO 2025-05-21 20:17:18,952 models Country created: USA
+INFO 2025-05-21 20:17:18,953 models Country created: USA
+INFO 2025-05-21 20:17:18,954 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 20:17:18,954 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 20:17:18,954 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 17:17:18.954226+00:00
+INFO 2025-05-21 20:17:18,954 models Country created: USA
+INFO 2025-05-21 20:17:18,954 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 20:17:18,954 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 20:17:18,955 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 17:17:18.954932+00:00
+INFO 2025-05-21 20:17:18,955 models Genre created: Action
+INFO 2025-05-21 20:17:18,955 models Country created: USA
+INFO 2025-05-21 20:17:18,955 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 20:17:18,955 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 20:17:18,955 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 17:17:18.955839+00:00
+INFO 2025-05-21 20:17:19,099 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 20:17:19,251 models Genre created: Action
+INFO 2025-05-21 20:17:19,251 models Country created: USA
+INFO 2025-05-21 20:17:19,251 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 20:17:19,251 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 20:17:19,252 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 17:17:19.251896+00:00
+INFO 2025-05-21 20:17:19,410 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 20:17:19,411 models Genre created: Action
+INFO 2025-05-21 20:17:19,411 models Country created: USA
+INFO 2025-05-21 20:17:19,411 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 20:17:19,412 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 20:17:19,412 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 17:17:19.412167+00:00
+INFO 2025-05-21 20:17:19,561 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 20:17:19,562 models Genre created: Action
+INFO 2025-05-21 20:17:19,562 models Country created: USA
+INFO 2025-05-21 20:17:19,562 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 20:17:19,562 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 20:17:19,562 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 17:17:19.562799+00:00
+INFO 2025-05-21 20:17:19,715 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 20:17:19,723 models Genre created: Action
+INFO 2025-05-21 20:17:19,723 models Country created: USA
+INFO 2025-05-21 20:17:19,723 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 20:17:19,724 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 20:17:19,724 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 17:17:19.724296+00:00
+INFO 2025-05-21 20:17:19,876 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 20:17:19,878 models Genre created: Action
+INFO 2025-05-21 20:17:19,878 models Country created: USA
+INFO 2025-05-21 20:17:19,878 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 20:17:19,878 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 20:17:19,878 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 17:17:19.878744+00:00
+INFO 2025-05-21 20:17:20,023 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 20:17:20,023 models Genre created: Action
+INFO 2025-05-21 20:17:20,023 models Country created: USA
+INFO 2025-05-21 20:17:20,024 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 20:17:20,024 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 20:17:20,024 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 17:17:20.024422+00:00
+INFO 2025-05-21 20:17:20,164 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 20:17:20,165 models Genre created: Action
+INFO 2025-05-21 20:17:20,165 models Country created: USA
+INFO 2025-05-21 20:17:20,165 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 20:17:20,165 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 20:17:20,166 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 17:17:20.166004+00:00
+INFO 2025-05-21 20:17:20,305 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 20:17:20,307 models Genre created: Action
+INFO 2025-05-21 20:17:20,307 models Country created: USA
+INFO 2025-05-21 20:17:20,307 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 20:17:20,307 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 20:17:20,307 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 17:17:20.307780+00:00
+INFO 2025-05-21 20:17:20,448 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 20:17:20,450 models Genre created: Action
+INFO 2025-05-21 20:17:20,450 models Country created: USA
+INFO 2025-05-21 20:17:20,450 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 20:17:20,450 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 20:17:20,450 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 17:17:20.450657+00:00
+INFO 2025-05-21 20:17:20,588 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 20:17:20,735 models Genre created: Action
+INFO 2025-05-21 20:17:20,735 models Country created: USA
+INFO 2025-05-21 20:17:20,736 models Film created: Test Film (ID: 1)
+INFO 2025-05-21 20:17:20,736 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-21 20:17:20,736 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 17:17:20.736720+00:00
+INFO 2025-05-21 20:17:20,883 models Customer created: testuser (ID: 1)
+INFO 2025-05-21 20:17:21,166 models Ticket created: ID 1 for film 'Test Film' at 2025-05-22 17:17:20.736720+00:00 for customer testuser
+INFO 2025-05-21 20:17:21,167 models Ticket created: ID 2 for film 'Test Film' at 2025-05-22 17:17:20.736720+00:00 for customer testuser
+INFO 2025-05-21 20:17:21,167 models Ticket created: ID 3 for film 'Test Film' at 2025-05-22 17:17:20.736720+00:00 for customer testuser
+ERROR 2025-05-21 20:23:44,786 api_services TMDB API Error: Status code 401
+ERROR 2025-05-21 20:23:44,787 api_services TMDB API Request Error: Connection error
+INFO 2025-05-21 20:23:44,787 api_services Successfully fetched 1 movies from TMDB API
+INFO 2025-05-21 20:23:44,799 api_services Successfully fetched weather data for Minsk
+ERROR 2025-05-21 20:25:54,164 api_services TMDB API Error: Status code 401
+ERROR 2025-05-21 20:25:54,165 api_services TMDB API Request Error: Connection error
+INFO 2025-05-21 20:25:54,165 api_services Successfully fetched 1 movies from TMDB API
+INFO 2025-05-21 20:25:54,166 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-21 20:29:45,826 api_services Successfully fetched weather data for Minsk
+ERROR 2025-05-21 20:30:20,251 api_services TMDB API Request Error: Connection error
+ERROR 2025-05-21 20:30:55,724 api_services TMDB API Error: Status code 401
+INFO 2025-05-21 20:35:15,448 api_services Successfully fetched 1 movies from TMDB API
+ERROR 2025-05-21 20:35:24,477 api_services TMDB API Error: Status code 401
+ERROR 2025-05-21 20:35:24,477 api_services TMDB API Request Error: Connection error
+INFO 2025-05-21 20:35:24,477 api_services Successfully fetched 1 movies from TMDB API
+INFO 2025-05-21 20:35:24,478 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-21 22:41:55,869 models Ticket created: ID 281 for film 'The Last Samurai' at 2025-05-25 23:49:14.555388+00:00 for customer alex_brown
+INFO 2025-05-21 19:51:59,187 models Customer created: Dima (ID: 5)
+INFO 2025-05-21 20:03:41,915 models Customer created: Alex (ID: 6)
+INFO 2025-05-21 20:04:34,346 models Ticket created: ID 282 for film 'The Quest for Treasure' at 2025-05-27 05:49:14.555388+00:00 for customer Alex
+INFO 2025-05-21 20:05:42,047 models Customer updated: Alex (ID: 6)
+INFO 2025-05-21 23:06:11,239 models Customer updated: Alex (ID: 6)
+INFO 2025-05-21 23:24:35,844 models Ticket created: ID 283 for film 'The Last Samurai' at 2025-05-25 23:49:14.555388+00:00 for customer alex_brown
+INFO 2025-05-22 13:27:32,047 admin Portal view accessed by alex_brown
+INFO 2025-05-22 13:27:32,720 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 13:27:33,247 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-22 13:28:39,978 admin Portal view accessed by alex_brown
+INFO 2025-05-22 13:28:40,076 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 13:28:40,186 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-22 13:28:47,522 admin Portal view accessed by alex_brown
+INFO 2025-05-22 13:28:47,616 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 13:28:47,726 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-22 14:52:07,407 admin Portal view accessed by alex_brown
+INFO 2025-05-22 14:52:07,637 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 14:52:07,859 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-22 14:56:21,809 admin Portal view accessed by alex_brown
+INFO 2025-05-22 14:56:22,035 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 14:56:22,200 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-22 15:02:58,707 models ShowTime created: ID 11 for film 'Love in Paris' at 2025-05-22 15:00:00+03:00
+INFO 2025-05-22 15:03:18,183 models Ticket created: ID 284 for film 'Love in Paris' at 2025-05-22 12:00:00+00:00 for customer Alex
+INFO 2025-05-22 15:44:28,456 admin Portal view accessed by alex_brown
+INFO 2025-05-22 15:44:28,611 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 15:44:28,774 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-22 15:44:47,481 admin Portal view accessed by alex_brown
+INFO 2025-05-22 15:44:47,592 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 15:44:47,714 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-22 15:47:22,403 admin Portal view accessed by alex_brown
+INFO 2025-05-22 15:47:22,721 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 15:47:22,842 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-22 15:48:05,551 admin Portal view accessed by alex_brown
+INFO 2025-05-22 15:48:05,673 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 15:48:05,793 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-22 15:50:21,009 admin Portal view accessed by alex_brown
+INFO 2025-05-22 15:50:21,186 api_services Successfully fetched 5 movies from TMDB API
+ERROR 2025-05-22 15:50:21,328 api_services Weather API Error: Status code 401
+INFO 2025-05-22 15:50:23,958 admin Portal view accessed by alex_brown
+INFO 2025-05-22 15:50:24,078 api_services Successfully fetched 5 movies from TMDB API
+ERROR 2025-05-22 15:50:24,184 api_services Weather API Error: Status code 401
+INFO 2025-05-22 15:53:04,281 admin Portal view accessed by alex_brown
+INFO 2025-05-22 15:53:04,446 api_services Successfully fetched 5 movies from TMDB API
+ERROR 2025-05-22 15:53:04,551 api_services Weather API Error: Status code 401
+INFO 2025-05-22 15:53:07,213 admin Portal view accessed by alex_brown
+INFO 2025-05-22 15:53:07,322 api_services Successfully fetched 5 movies from TMDB API
+ERROR 2025-05-22 15:53:07,427 api_services Weather API Error: Status code 401
+INFO 2025-05-22 15:54:47,985 admin Portal view accessed by alex_brown
+INFO 2025-05-22 15:54:48,142 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 15:54:48,143 api_services Using simulated weather data for Minsk (15.0°C, scattered clouds)
+INFO 2025-05-22 15:55:42,409 admin Portal view accessed by alex_brown
+INFO 2025-05-22 15:55:42,558 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 15:55:42,559 api_services Using simulated weather data for Minsk (15.0°C, scattered clouds)
+INFO 2025-05-22 15:58:35,715 admin Portal view accessed by alex_brown
+INFO 2025-05-22 15:58:35,911 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 15:58:36,239 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-22 15:58:39,986 admin Portal view accessed by alex_brown
+INFO 2025-05-22 15:58:40,110 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 15:58:40,233 api_services Successfully fetched weather data for Minsk
+INFO 2025-05-22 15:59:28,028 admin Portal view accessed by alex_brown
+INFO 2025-05-22 15:59:28,161 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 15:59:28,162 api_services Fetching weather data for Minsk
+ERROR 2025-05-22 15:59:28,315 api_services OpenWeather API Error: Status code 401 - Invalid API key or unauthorized access
+ERROR 2025-05-22 15:59:28,316 api_services API error message: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+INFO 2025-05-22 15:59:35,479 admin Portal view accessed by alex_brown
+INFO 2025-05-22 15:59:35,601 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 15:59:35,602 api_services Fetching weather data for Minsk
+ERROR 2025-05-22 15:59:35,724 api_services OpenWeather API Error: Status code 401 - Invalid API key or unauthorized access
+ERROR 2025-05-22 15:59:35,725 api_services API error message: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+INFO 2025-05-22 16:01:24,391 admin Portal view accessed by alex_brown
+INFO 2025-05-22 16:01:24,548 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:01:24,549 api_services Fetching weather data for Minsk
+ERROR 2025-05-22 16:01:24,687 api_services OpenWeather API Error: Status code 401 - Invalid API key or unauthorized access
+ERROR 2025-05-22 16:01:24,687 api_services API error message: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+INFO 2025-05-22 16:01:36,303 admin Portal view accessed by alex_brown
+ERROR 2025-05-22 16:01:36,313 api_services TMDB API Request Error: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/now_playing?api_key=5e5d50aab61e64c046157c26a25d5711&language=en-US&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1098b6ec0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO 2025-05-22 16:01:36,313 api_services Fetching weather data for Minsk
+ERROR 2025-05-22 16:01:36,433 api_services OpenWeather API Error: Status code 401 - Invalid API key or unauthorized access
+ERROR 2025-05-22 16:01:36,433 api_services API error message: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+INFO 2025-05-22 16:01:37,765 admin Portal view accessed by alex_brown
+ERROR 2025-05-22 16:01:37,771 api_services TMDB API Request Error: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/now_playing?api_key=5e5d50aab61e64c046157c26a25d5711&language=en-US&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10982eb00>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO 2025-05-22 16:01:37,771 api_services Fetching weather data for Minsk
+ERROR 2025-05-22 16:01:37,888 api_services OpenWeather API Error: Status code 401 - Invalid API key or unauthorized access
+ERROR 2025-05-22 16:01:37,888 api_services API error message: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+INFO 2025-05-22 16:03:19,718 admin Portal view accessed by alex_brown
+ERROR 2025-05-22 16:03:19,733 api_services TMDB API Request Error: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/now_playing?api_key=5e5d50aab61e64c046157c26a25d5711&language=en-US&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x107237b50>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO 2025-05-22 16:03:19,733 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:03:19,861 api_services Successfully retrieved weather data for Minsk: 18.5°C, broken clouds
+INFO 2025-05-22 16:04:16,493 admin Portal view accessed by alex_brown
+ERROR 2025-05-22 16:04:16,507 api_services TMDB API Request Error: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/now_playing?api_key=5e5d50aab61e64c046157c26a25d5711&language=en-US&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x105577d00>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO 2025-05-22 16:04:16,508 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:04:16,633 api_services Successfully retrieved weather data for Minsk: 18.5°C, broken clouds
+INFO 2025-05-22 16:04:56,856 admin Portal view accessed by alex_brown
+INFO 2025-05-22 16:04:57,007 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:04:57,007 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:04:57,302 api_services Successfully retrieved weather data for Minsk: 18.5°C, broken clouds
+INFO 2025-05-22 16:06:06,150 models Film updated: The Last Journey (ID: 3)
+INFO 2025-05-22 16:06:08,107 admin Portal view accessed by alex_brown
+INFO 2025-05-22 16:06:08,208 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:06:08,209 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:06:08,307 api_services Successfully retrieved weather data for Minsk: 18.5°C, broken clouds
+INFO 2025-05-22 16:06:44,695 models Film updated: The Quest for Treasure (ID: 6)
+INFO 2025-05-22 16:06:48,935 admin Portal view accessed by alex_brown
+INFO 2025-05-22 16:06:49,075 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:06:49,076 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:06:49,187 api_services Successfully retrieved weather data for Minsk: 18.5°C, broken clouds
+INFO 2025-05-22 16:07:33,269 models Film updated: Future World (ID: 10)
+INFO 2025-05-22 16:07:36,888 admin Portal view accessed by alex_brown
+INFO 2025-05-22 16:07:36,988 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:07:36,989 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:07:37,098 api_services Successfully retrieved weather data for Minsk: 18.5°C, broken clouds
+INFO 2025-05-22 16:08:08,860 models Film updated: The Space Adventure (ID: 1)
+INFO 2025-05-22 16:08:17,017 admin Portal view accessed by alex_brown
+INFO 2025-05-22 16:08:17,154 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:08:17,155 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:08:17,259 api_services Successfully retrieved weather data for Minsk: 18.5°C, broken clouds
+INFO 2025-05-22 16:09:29,808 models Film updated: Night Terror (ID: 4)
+INFO 2025-05-22 16:09:33,108 admin Portal view accessed by alex_brown
+INFO 2025-05-22 16:09:33,206 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:09:33,207 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:09:33,309 api_services Successfully retrieved weather data for Minsk: 18.5°C, broken clouds
+INFO 2025-05-22 16:12:10,321 admin Portal view accessed by alex_brown
+INFO 2025-05-22 16:12:10,460 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:12:10,460 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:12:10,582 api_services Successfully retrieved weather data for Minsk: 18.5°C, broken clouds
+INFO 2025-05-22 16:12:45,692 admin Portal view accessed by alex_brown
+INFO 2025-05-22 16:12:45,800 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:12:45,801 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:12:45,893 api_services Successfully retrieved weather data for Minsk: 18.5°C, broken clouds
+INFO 2025-05-22 16:13:34,402 admin Portal view accessed by alex_brown
+INFO 2025-05-22 16:13:34,552 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:13:34,553 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:13:34,646 api_services Successfully retrieved weather data for Minsk: 18.5°C, broken clouds
+INFO 2025-05-22 16:15:09,554 admin Portal view accessed by alex_brown
+INFO 2025-05-22 16:15:09,701 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:15:09,701 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:15:09,836 api_services Successfully retrieved weather data for Minsk: 18.5°C, broken clouds
+INFO 2025-05-22 16:26:08,513 admin Portal view accessed by admin
+INFO 2025-05-22 16:26:08,677 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:26:08,677 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:26:08,812 api_services Successfully retrieved weather data for Minsk: 18.7°C, broken clouds
+INFO 2025-05-22 16:35:20,797 admin Portal view accessed by admin
+INFO 2025-05-22 16:35:20,947 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:35:20,948 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:35:21,076 api_services Successfully retrieved weather data for Minsk: 18.7°C, broken clouds
+INFO 2025-05-22 16:38:24,369 admin Portal view accessed by john_doe
+INFO 2025-05-22 16:38:24,524 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:38:24,525 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:38:24,625 api_services Successfully retrieved weather data for Minsk: 17.8°C, broken clouds
+INFO 2025-05-22 16:38:27,416 admin Portal view accessed by john_doe
+INFO 2025-05-22 16:38:27,529 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:38:27,529 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:38:27,628 api_services Successfully retrieved weather data for Minsk: 17.8°C, broken clouds
+INFO 2025-05-22 16:38:35,603 admin Portal view accessed by john_doe
+INFO 2025-05-22 16:38:35,726 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:38:35,727 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:38:35,835 api_services Successfully retrieved weather data for Minsk: 17.8°C, broken clouds
+INFO 2025-05-22 16:40:10,421 admin Portal view accessed by admin
+INFO 2025-05-22 16:40:10,573 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:40:10,573 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:40:10,664 api_services Successfully retrieved weather data for Minsk: 17.8°C, broken clouds
+INFO 2025-05-22 16:40:14,592 admin Portal view accessed by admin
+INFO 2025-05-22 16:40:14,700 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:40:14,701 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:40:14,800 api_services Successfully retrieved weather data for Minsk: 17.8°C, broken clouds
+INFO 2025-05-22 16:40:16,339 admin Portal view accessed by admin
+INFO 2025-05-22 16:40:16,444 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:40:16,445 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:40:16,543 api_services Successfully retrieved weather data for Minsk: 17.8°C, broken clouds
+INFO 2025-05-22 16:40:17,597 admin Portal view accessed by admin
+INFO 2025-05-22 16:40:17,702 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:40:17,703 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:40:17,805 api_services Successfully retrieved weather data for Minsk: 17.8°C, broken clouds
+INFO 2025-05-22 16:40:59,831 admin Portal view accessed by admin
+INFO 2025-05-22 16:40:59,951 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:40:59,952 api_services Fetching weather data for Denver
+INFO 2025-05-22 16:41:00,060 api_services Successfully retrieved weather data for Denver: 10.1°C, clear sky
+INFO 2025-05-22 16:41:18,176 admin Portal view accessed by admin
+INFO 2025-05-22 16:41:18,294 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:41:18,294 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:41:18,410 api_services Successfully retrieved weather data for Minsk: 17.8°C, broken clouds
+INFO 2025-05-22 16:41:26,333 admin Portal view accessed by admin
+INFO 2025-05-22 16:41:26,436 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:41:26,437 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:41:26,530 api_services Successfully retrieved weather data for Minsk: 17.8°C, broken clouds
+INFO 2025-05-22 16:41:27,385 admin Portal view accessed by admin
+INFO 2025-05-22 16:41:27,497 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 16:41:27,498 api_services Fetching weather data for Minsk
+INFO 2025-05-22 16:41:27,590 api_services Successfully retrieved weather data for Minsk: 17.8°C, broken clouds
+INFO 2025-05-22 17:08:12,737 admin Portal view accessed by admin
+INFO 2025-05-22 17:08:12,881 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 17:08:12,881 api_services Fetching weather data for Minsk
+INFO 2025-05-22 17:08:13,007 api_services Successfully retrieved weather data for Minsk: 17.9°C, broken clouds
+INFO 2025-05-22 17:12:10,442 admin Portal view accessed by admin
+INFO 2025-05-22 17:12:10,604 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 17:12:10,604 api_services Fetching weather data for Minsk
+INFO 2025-05-22 17:12:10,734 api_services Successfully retrieved weather data for Minsk: 18.0°C, broken clouds
+INFO 2025-05-22 17:21:57,485 admin Portal view accessed by Ted
+INFO 2025-05-22 17:21:57,615 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 17:21:57,615 api_services Fetching weather data for Minsk
+INFO 2025-05-22 17:21:57,739 api_services Successfully retrieved weather data for Minsk: 18.0°C, light rain
+INFO 2025-05-22 17:35:00,972 models Customer created: Ted (ID: 7)
+INFO 2025-05-22 17:35:18,226 admin Portal view accessed by alex_brown
+INFO 2025-05-22 17:35:18,396 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 17:35:18,396 api_services Fetching weather data for Minsk
+INFO 2025-05-22 17:35:18,551 api_services Successfully retrieved weather data for Minsk: 18.0°C, light rain
+INFO 2025-05-22 17:54:09,011 admin Portal view accessed by alex_brown
+INFO 2025-05-22 17:54:09,159 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 17:54:09,159 api_services Fetching weather data for Minsk
+INFO 2025-05-22 17:54:09,662 api_services Successfully retrieved weather data for Minsk: 18.5°C, moderate rain
+INFO 2025-05-22 17:55:24,410 admin Portal view accessed by alex_brown
+INFO 2025-05-22 17:55:24,522 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 17:55:24,523 api_services Fetching weather data for Minsk
+INFO 2025-05-22 17:55:24,626 api_services Successfully retrieved weather data for Minsk: 18.5°C, moderate rain
+INFO 2025-05-22 18:09:37,067 admin Portal view accessed by alex_brown
+INFO 2025-05-22 18:09:37,458 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 18:09:37,458 api_services Fetching weather data for Minsk
+INFO 2025-05-22 18:09:37,582 api_services Successfully retrieved weather data for Minsk: 18.5°C, light rain
+INFO 2025-05-22 18:09:56,490 admin Portal view accessed by alex_brown
+INFO 2025-05-22 18:09:56,619 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 18:09:56,620 api_services Fetching weather data for Minsk
+INFO 2025-05-22 18:09:56,723 api_services Successfully retrieved weather data for Minsk: 18.5°C, light rain
+INFO 2025-05-22 18:13:49,252 admin Portal view accessed by alex_brown
+INFO 2025-05-22 18:13:49,409 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 18:13:49,409 api_services Fetching weather data for Minsk
+INFO 2025-05-22 18:13:49,529 api_services Successfully retrieved weather data for Minsk: 18.5°C, broken clouds
+INFO 2025-05-22 18:14:38,283 admin Portal view accessed by alex_brown
+INFO 2025-05-22 18:14:38,419 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 18:14:38,420 api_services Fetching weather data for Minsk
+INFO 2025-05-22 18:14:38,773 api_services Successfully retrieved weather data for Minsk: 18.5°C, broken clouds
+INFO 2025-05-22 18:19:00,050 models Country created: USA
+INFO 2025-05-22 18:19:00,189 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:19:00,465 models Country created: USA
+INFO 2025-05-22 18:19:00,465 models Genre created: Action
+INFO 2025-05-22 18:19:00,465 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:19:00,467 models Genre created: Action
+INFO 2025-05-22 18:19:00,619 models Country created: USA
+INFO 2025-05-22 18:19:00,619 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:19:00,619 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 18:19:00,620 models Country created: USA
+INFO 2025-05-22 18:19:00,620 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:19:00,620 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:19:00,621 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:19:00.621002+00:00
+INFO 2025-05-22 18:19:00,772 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:19:00,772 models Country created: USA
+INFO 2025-05-22 18:19:00,772 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:19:00,772 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:19:00,773 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:19:00.772859+00:00
+INFO 2025-05-22 18:19:00,773 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:19:00,773 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:19:00.772859+00:00 for customer testuser
+INFO 2025-05-22 18:19:00,919 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:19:00,919 models Country created: USA
+INFO 2025-05-22 18:19:00,919 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:19:00,920 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:19:00,920 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:19:00.920070+00:00
+INFO 2025-05-22 18:19:00,920 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:19:00,920 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:19:00.920070+00:00 for customer testuser
+INFO 2025-05-22 18:19:00,920 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 15:19:00.920070+00:00 for customer testuser
+INFO 2025-05-22 18:19:01,060 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:19:01,060 models Country created: USA
+INFO 2025-05-22 18:19:01,061 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:19:01,061 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:19:01,061 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:19:01.061242+00:00
+INFO 2025-05-22 18:19:01,061 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:19:01,061 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:19:01.061242+00:00 for customer testuser
+INFO 2025-05-22 18:20:42,041 models Country created: USA
+INFO 2025-05-22 18:20:42,179 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:20:42,451 models Country created: USA
+INFO 2025-05-22 18:20:42,452 models Genre created: Action
+INFO 2025-05-22 18:20:42,452 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:20:42,453 models Genre created: Action
+INFO 2025-05-22 18:20:42,589 models Country created: USA
+INFO 2025-05-22 18:20:42,589 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:20:42,590 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 18:20:42,590 models Country created: USA
+INFO 2025-05-22 18:20:42,590 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:20:42,590 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:20:42,590 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:20:42.590682+00:00
+INFO 2025-05-22 18:20:42,731 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:20:42,731 models Country created: USA
+INFO 2025-05-22 18:20:42,731 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:20:42,731 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:20:42,731 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:20:42.731712+00:00
+INFO 2025-05-22 18:20:42,732 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:20:42,732 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:20:42.731712+00:00 for customer testuser
+INFO 2025-05-22 18:20:42,882 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:20:42,882 models Country created: USA
+INFO 2025-05-22 18:20:42,882 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:20:42,882 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:20:42,882 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:20:42.882574+00:00
+INFO 2025-05-22 18:20:42,882 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:20:42,883 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:20:42.882574+00:00 for customer testuser
+INFO 2025-05-22 18:20:42,883 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 15:20:42.882574+00:00 for customer testuser
+INFO 2025-05-22 18:20:43,025 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:20:43,025 models Country created: USA
+INFO 2025-05-22 18:20:43,025 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:20:43,025 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:20:43,026 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:20:43.025981+00:00
+INFO 2025-05-22 18:20:43,026 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:20:43,026 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:20:43.025981+00:00 for customer testuser
+INFO 2025-05-22 18:20:46,295 models Country created: USA
+INFO 2025-05-22 18:20:46,432 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:20:46,706 models Country created: USA
+INFO 2025-05-22 18:20:46,707 models Genre created: Action
+INFO 2025-05-22 18:20:46,707 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:20:46,708 models Genre created: Action
+INFO 2025-05-22 18:20:46,843 models Country created: USA
+INFO 2025-05-22 18:20:46,843 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:20:46,844 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 18:20:46,844 models Country created: USA
+INFO 2025-05-22 18:20:46,844 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:20:46,844 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:20:46,844 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:20:46.844796+00:00
+INFO 2025-05-22 18:20:46,981 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:20:46,981 models Country created: USA
+INFO 2025-05-22 18:20:46,981 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:20:46,981 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:20:46,981 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:20:46.981803+00:00
+INFO 2025-05-22 18:20:46,982 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:20:46,982 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:20:46.981803+00:00 for customer testuser
+INFO 2025-05-22 18:20:47,117 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:20:47,118 models Country created: USA
+INFO 2025-05-22 18:20:47,118 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:20:47,118 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:20:47,118 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:20:47.118367+00:00
+INFO 2025-05-22 18:20:47,118 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:20:47,118 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:20:47.118367+00:00 for customer testuser
+INFO 2025-05-22 18:20:47,118 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 15:20:47.118367+00:00 for customer testuser
+INFO 2025-05-22 18:20:47,254 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:20:47,254 models Country created: USA
+INFO 2025-05-22 18:20:47,254 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:20:47,254 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:20:47,254 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:20:47.254759+00:00
+INFO 2025-05-22 18:20:47,255 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:20:47,255 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:20:47.254759+00:00 for customer testuser
+INFO 2025-05-22 18:21:00,936 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:21:52,422 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:22:04,146 models Country created: USA
+INFO 2025-05-22 18:22:04,282 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:22:04,559 models Country created: USA
+INFO 2025-05-22 18:22:04,559 models Genre created: Action
+INFO 2025-05-22 18:22:04,560 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:22:04,561 models Genre created: Action
+INFO 2025-05-22 18:22:04,696 models Country created: USA
+INFO 2025-05-22 18:22:04,697 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:22:04,697 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 18:22:04,697 models Country created: USA
+INFO 2025-05-22 18:22:04,697 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:22:04,697 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:22:04,698 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:22:04.697944+00:00
+INFO 2025-05-22 18:22:04,838 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:22:04,838 models Country created: USA
+INFO 2025-05-22 18:22:04,838 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:22:04,838 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:22:04,838 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:22:04.838609+00:00
+INFO 2025-05-22 18:22:04,838 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:22:04,839 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:22:04.838609+00:00 for customer testuser
+INFO 2025-05-22 18:22:04,975 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:22:04,975 models Country created: USA
+INFO 2025-05-22 18:22:04,975 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:22:04,976 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:22:04,976 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:22:04.976047+00:00
+INFO 2025-05-22 18:22:04,976 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:22:04,976 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:22:04.976047+00:00 for customer testuser
+INFO 2025-05-22 18:22:04,976 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 15:22:04.976047+00:00 for customer testuser
+INFO 2025-05-22 18:22:05,114 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:22:05,114 models Country created: USA
+INFO 2025-05-22 18:22:05,115 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:22:05,115 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:22:05,115 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:22:05.115168+00:00
+INFO 2025-05-22 18:22:05,115 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:22:05,115 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:22:05.115168+00:00 for customer testuser
+INFO 2025-05-22 18:24:10,300 models Country created: USA
+INFO 2025-05-22 18:24:10,725 models Country created: USA
+INFO 2025-05-22 18:24:10,725 models Genre created: Action
+INFO 2025-05-22 18:24:10,725 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:24:10,726 models Genre created: Action
+INFO 2025-05-22 18:24:10,866 models Country created: USA
+INFO 2025-05-22 18:24:10,866 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:24:10,866 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 18:24:10,866 models Country created: USA
+INFO 2025-05-22 18:24:10,867 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:24:10,867 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:24:10,867 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:24:10.867258+00:00
+INFO 2025-05-22 18:24:17,841 models Country created: USA
+INFO 2025-05-22 18:24:18,253 models Country created: USA
+INFO 2025-05-22 18:24:18,254 models Genre created: Action
+INFO 2025-05-22 18:24:18,254 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:24:18,255 models Genre created: Action
+INFO 2025-05-22 18:24:18,392 models Country created: USA
+INFO 2025-05-22 18:24:18,393 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:24:18,393 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 18:24:18,393 models Country created: USA
+INFO 2025-05-22 18:24:18,394 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:24:18,394 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:24:18,394 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:24:18.394187+00:00
+INFO 2025-05-22 18:24:55,800 models Country created: USA
+INFO 2025-05-22 18:24:56,213 models Country created: USA
+INFO 2025-05-22 18:24:56,213 models Genre created: Action
+INFO 2025-05-22 18:24:56,214 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:24:56,215 models Genre created: Action
+INFO 2025-05-22 18:24:56,350 models Country created: USA
+INFO 2025-05-22 18:24:56,350 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:24:56,351 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 18:24:56,351 models Country created: USA
+INFO 2025-05-22 18:24:56,351 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:24:56,351 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:24:56,351 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:24:56.351775+00:00
+INFO 2025-05-22 18:26:53,667 models Country created: USA
+INFO 2025-05-22 18:26:54,153 models Country created: USA
+INFO 2025-05-22 18:26:54,153 models Genre created: Action
+INFO 2025-05-22 18:26:54,156 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:26:54,158 models Genre created: Action
+INFO 2025-05-22 18:26:54,320 models Country created: USA
+INFO 2025-05-22 18:26:54,320 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:26:54,320 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 18:26:54,321 models Country created: USA
+INFO 2025-05-22 18:26:54,321 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:26:54,321 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:26:54,321 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:26:54.321598+00:00
+INFO 2025-05-22 18:27:21,031 models Country created: USA
+INFO 2025-05-22 18:27:21,177 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:27:21,451 models Country created: USA
+INFO 2025-05-22 18:27:21,452 models Genre created: Action
+INFO 2025-05-22 18:27:21,452 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:27:21,453 models Genre created: Action
+INFO 2025-05-22 18:27:21,590 models Country created: USA
+INFO 2025-05-22 18:27:21,590 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:27:21,590 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 18:27:21,590 models Country created: USA
+INFO 2025-05-22 18:27:21,591 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:27:21,591 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:27:21,591 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:27:21.591181+00:00
+INFO 2025-05-22 18:27:21,729 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:27:21,729 models Country created: USA
+INFO 2025-05-22 18:27:21,729 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:27:21,729 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:27:21,729 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:27:21.729535+00:00
+INFO 2025-05-22 18:27:21,729 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:27:21,729 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:27:21.729535+00:00 for customer testuser
+INFO 2025-05-22 18:27:21,867 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:27:21,868 models Country created: USA
+INFO 2025-05-22 18:27:21,868 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:27:21,868 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:27:21,868 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:27:21.868342+00:00
+INFO 2025-05-22 18:27:21,868 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:27:21,868 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:27:21.868342+00:00 for customer testuser
+INFO 2025-05-22 18:27:21,868 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 15:27:21.868342+00:00 for customer testuser
+INFO 2025-05-22 18:27:22,008 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:27:22,009 models Country created: USA
+INFO 2025-05-22 18:27:22,009 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:27:22,009 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:27:22,009 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:27:22.009412+00:00
+INFO 2025-05-22 18:27:22,009 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:27:22,009 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:27:22.009412+00:00 for customer testuser
+INFO 2025-05-22 18:27:44,824 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:27:44,824 models Country created: USA
+INFO 2025-05-22 18:27:44,824 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:27:44,825 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:27:44,825 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:27:44.825075+00:00
+INFO 2025-05-22 18:27:44,825 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:27:44,825 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:27:44.825075+00:00 for customer testuser
+INFO 2025-05-22 18:27:44,959 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:27:44,959 models Country created: USA
+INFO 2025-05-22 18:27:44,960 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:27:44,960 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:27:44,960 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:27:44.960174+00:00
+INFO 2025-05-22 18:27:44,960 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:27:44,960 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:27:44.960174+00:00 for customer testuser
+INFO 2025-05-22 18:27:44,960 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 15:27:44.960174+00:00 for customer testuser
+INFO 2025-05-22 18:27:45,097 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:27:45,097 models Country created: USA
+INFO 2025-05-22 18:27:45,097 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:27:45,097 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:27:45,097 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:27:45.097505+00:00
+INFO 2025-05-22 18:27:45,097 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:27:45,097 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:27:45.097505+00:00 for customer testuser
+INFO 2025-05-22 18:28:18,803 models Country created: USA
+INFO 2025-05-22 18:28:18,940 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:28:19,215 models Country created: USA
+INFO 2025-05-22 18:28:19,215 models Genre created: Action
+INFO 2025-05-22 18:28:19,215 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:28:19,216 models Genre created: Action
+INFO 2025-05-22 18:28:19,351 models Country created: USA
+INFO 2025-05-22 18:28:19,351 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:28:19,352 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 18:28:19,352 models Country created: USA
+INFO 2025-05-22 18:28:19,352 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:28:19,352 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:28:19,353 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:28:19.352929+00:00
+INFO 2025-05-22 18:28:19,491 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:28:19,491 models Country created: USA
+INFO 2025-05-22 18:28:19,491 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:28:19,491 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:28:19,491 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:28:19.491767+00:00
+INFO 2025-05-22 18:28:19,492 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:28:19,492 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:28:19.491767+00:00 for customer testuser
+INFO 2025-05-22 18:28:19,628 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:28:19,628 models Country created: USA
+INFO 2025-05-22 18:28:19,629 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:28:19,629 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:28:19,629 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:28:19.629186+00:00
+INFO 2025-05-22 18:28:19,629 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:28:19,629 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:28:19.629186+00:00 for customer testuser
+INFO 2025-05-22 18:28:19,629 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 15:28:19.629186+00:00 for customer testuser
+INFO 2025-05-22 18:28:19,766 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:28:19,766 models Country created: USA
+INFO 2025-05-22 18:28:19,766 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:28:19,766 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:28:19,766 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:28:19.766871+00:00
+INFO 2025-05-22 18:28:19,767 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:28:19,767 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:28:19.766871+00:00 for customer testuser
+INFO 2025-05-22 18:30:34,476 models Country created: USA
+INFO 2025-05-22 18:30:34,613 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:30:34,884 models Country created: USA
+INFO 2025-05-22 18:30:34,884 models Genre created: Action
+INFO 2025-05-22 18:30:34,885 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:30:34,886 models Genre created: Action
+INFO 2025-05-22 18:30:35,023 models Country created: USA
+INFO 2025-05-22 18:30:35,023 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:30:35,024 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 18:30:35,024 models Country created: USA
+INFO 2025-05-22 18:30:35,025 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:30:35,025 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:30:35,025 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:30:35.025252+00:00
+INFO 2025-05-22 18:30:35,163 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:30:35,163 models Country created: USA
+INFO 2025-05-22 18:30:35,163 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:30:35,164 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:30:35,164 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:30:35.164037+00:00
+INFO 2025-05-22 18:30:35,164 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:30:35,164 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:30:35.164037+00:00 for customer testuser
+INFO 2025-05-22 18:30:35,301 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:30:35,301 models Country created: USA
+INFO 2025-05-22 18:30:35,302 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:30:35,302 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:30:35,302 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:30:35.302161+00:00
+INFO 2025-05-22 18:30:35,302 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:30:35,302 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:30:35.302161+00:00 for customer testuser
+INFO 2025-05-22 18:30:35,302 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 15:30:35.302161+00:00 for customer testuser
+INFO 2025-05-22 18:30:35,439 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:30:35,439 models Country created: USA
+INFO 2025-05-22 18:30:35,439 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:30:35,439 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:30:35,439 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:30:35.439702+00:00
+INFO 2025-05-22 18:30:35,440 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:30:35,440 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:30:35.439702+00:00 for customer testuser
+INFO 2025-05-22 18:31:58,042 models Customer updated: Alex (ID: 6)
+INFO 2025-05-22 18:34:10,837 models Customer updated: Alex (ID: 6)
+INFO 2025-05-22 18:36:24,796 models Customer updated: Alex (ID: 6)
+INFO 2025-05-22 18:37:27,905 admin Portal view accessed by alex_brown
+INFO 2025-05-22 18:37:28,068 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 18:37:28,069 api_services Fetching weather data for Minsk
+INFO 2025-05-22 18:37:28,204 api_services Successfully retrieved weather data for Minsk: 18.0°C, broken clouds
+INFO 2025-05-22 18:43:22,702 models Customer updated: Alex (ID: 6)
+INFO 2025-05-22 18:47:28,587 models Customer updated: Alex (ID: 6)
+INFO 2025-05-22 18:52:10,835 models Customer updated: Alex (ID: 6)
+INFO 2025-05-22 18:54:57,234 models Customer updated: Alex (ID: 6)
+INFO 2025-05-22 18:58:09,143 models CinemaHall created: VIP Hall (ID: 1)
+INFO 2025-05-22 18:58:09,837 models Discount created: Active Discount (ID: 1) - 15%
+INFO 2025-05-22 18:58:09,837 models Discount created: Expired Discount (ID: 2) - 25%
+INFO 2025-05-22 18:58:09,837 models Discount created: Future Discount (ID: 3) - 30%
+INFO 2025-05-22 18:58:09,837 models Discount created: Active Discount (ID: 1) - 15%
+INFO 2025-05-22 18:58:09,837 models Discount created: Expired Discount (ID: 2) - 25%
+INFO 2025-05-22 18:58:09,837 models Discount created: Future Discount (ID: 3) - 30%
+INFO 2025-05-22 18:58:09,838 models Discount created: Active Discount (ID: 1) - 15%
+INFO 2025-05-22 18:58:09,838 models Discount created: Expired Discount (ID: 2) - 25%
+INFO 2025-05-22 18:58:09,838 models Discount created: Future Discount (ID: 3) - 30%
+INFO 2025-05-22 18:58:09,839 models Country created: France
+INFO 2025-05-22 18:58:09,839 models Genre created: Drama
+INFO 2025-05-22 18:58:09,839 models Genre created: Romance
+INFO 2025-05-22 18:58:09,841 models Film created: Amélie (ID: 1)
+INFO 2025-05-22 18:58:09,841 models Country created: France
+INFO 2025-05-22 18:58:09,842 models Genre created: Drama
+INFO 2025-05-22 18:58:09,842 models Genre created: Romance
+INFO 2025-05-22 18:58:09,842 models Film created: Amélie (ID: 1)
+INFO 2025-05-22 18:58:09,843 models Country created: France
+INFO 2025-05-22 18:58:09,843 models Genre created: Drama
+INFO 2025-05-22 18:58:09,843 models Genre created: Romance
+INFO 2025-05-22 18:58:09,844 models Film created: Amélie (ID: 1)
+INFO 2025-05-22 18:58:09,985 models Country created: Japan
+INFO 2025-05-22 18:58:09,985 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:09,986 models Review created: ID 1 for film 'Test Film' by user 'reviewuser'
+INFO 2025-05-22 18:58:09,986 models Review created: ID 2 for film 'Test Film' by user 'reviewuser'
+INFO 2025-05-22 18:58:10,126 models Country created: Japan
+INFO 2025-05-22 18:58:10,126 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:10,271 models Country created: Japan
+INFO 2025-05-22 18:58:10,271 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:10,272 models Country created: USA
+INFO 2025-05-22 18:58:10,272 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:10,272 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:58:10,273 models Country created: USA
+INFO 2025-05-22 18:58:10,273 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:10,273 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:58:10,274 models Country created: USA
+INFO 2025-05-22 18:58:10,274 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:10,274 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:58:10,274 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-22 14:00:00+00:00
+INFO 2025-05-22 18:58:10,413 models Customer created: ticketuser (ID: 1)
+INFO 2025-05-22 18:58:10,413 models Country created: Germany
+INFO 2025-05-22 18:58:10,414 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:10,414 models CinemaHall created: Hall 2 (ID: 1)
+INFO 2025-05-22 18:58:10,414 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:58:10.414327+00:00
+INFO 2025-05-22 18:58:10,414 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:58:10.414327+00:00 for customer ticketuser
+INFO 2025-05-22 18:58:10,414 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 15:58:10.414327+00:00 for customer ticketuser
+INFO 2025-05-22 18:58:10,553 models Customer created: ticketuser (ID: 1)
+INFO 2025-05-22 18:58:10,553 models Country created: Germany
+INFO 2025-05-22 18:58:10,553 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:10,553 models CinemaHall created: Hall 2 (ID: 1)
+INFO 2025-05-22 18:58:10,553 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:58:10.553744+00:00
+INFO 2025-05-22 18:58:10,554 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:58:10.553744+00:00 for customer ticketuser
+INFO 2025-05-22 18:58:10,711 models Customer created: ticketuser (ID: 1)
+INFO 2025-05-22 18:58:10,711 models Country created: Germany
+INFO 2025-05-22 18:58:10,712 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:10,712 models CinemaHall created: Hall 2 (ID: 1)
+INFO 2025-05-22 18:58:10,712 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:58:10.712522+00:00
+INFO 2025-05-22 18:58:10,712 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:58:10.712522+00:00 for customer ticketuser
+INFO 2025-05-22 18:58:10,712 models ShowTime created: ID 2 for film 'Test Film' at 2025-05-23 18:58:10.712522+00:00
+INFO 2025-05-22 18:58:10,713 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 18:58:10.712522+00:00 for customer ticketuser
+INFO 2025-05-22 18:58:39,115 models Country created: USA
+INFO 2025-05-22 18:58:39,254 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:58:39,531 models Country created: USA
+INFO 2025-05-22 18:58:39,532 models Genre created: Action
+INFO 2025-05-22 18:58:39,532 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:39,533 models Genre created: Action
+INFO 2025-05-22 18:58:39,689 models Country created: USA
+INFO 2025-05-22 18:58:39,690 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:39,690 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 18:58:39,690 models Country created: USA
+INFO 2025-05-22 18:58:39,691 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:39,691 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:58:39,691 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:58:39.691334+00:00
+INFO 2025-05-22 18:58:39,850 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:58:39,851 models Country created: USA
+INFO 2025-05-22 18:58:39,851 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:39,851 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:58:39,851 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:58:39.851444+00:00
+INFO 2025-05-22 18:58:39,851 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:58:39,851 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:58:39.851444+00:00 for customer testuser
+INFO 2025-05-22 18:58:39,992 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:58:39,993 models Country created: USA
+INFO 2025-05-22 18:58:39,993 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:39,993 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:58:39,993 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:58:39.993316+00:00
+INFO 2025-05-22 18:58:39,993 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:58:39,993 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:58:39.993316+00:00 for customer testuser
+INFO 2025-05-22 18:58:39,993 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 15:58:39.993316+00:00 for customer testuser
+INFO 2025-05-22 18:58:40,132 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:58:40,132 models Country created: USA
+INFO 2025-05-22 18:58:40,132 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:58:40,132 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:58:40,132 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:58:40.132555+00:00
+INFO 2025-05-22 18:58:40,132 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:58:40,132 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:58:40.132555+00:00 for customer testuser
+INFO 2025-05-22 18:59:03,808 models Country created: USA
+INFO 2025-05-22 18:59:03,948 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:59:04,222 models Country created: USA
+INFO 2025-05-22 18:59:04,223 models Genre created: Action
+INFO 2025-05-22 18:59:04,223 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:59:04,224 models Genre created: Action
+INFO 2025-05-22 18:59:04,363 models Country created: USA
+INFO 2025-05-22 18:59:04,364 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:59:04,364 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 18:59:04,364 models Country created: USA
+INFO 2025-05-22 18:59:04,365 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:59:04,365 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:59:04,365 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:59:04.365178+00:00
+INFO 2025-05-22 18:59:04,503 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:59:04,503 models Country created: USA
+INFO 2025-05-22 18:59:04,504 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:59:04,504 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:59:04,504 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:59:04.504141+00:00
+INFO 2025-05-22 18:59:04,504 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:59:04,504 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:59:04.504141+00:00 for customer testuser
+INFO 2025-05-22 18:59:04,643 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:59:04,643 models Country created: USA
+INFO 2025-05-22 18:59:04,643 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:59:04,643 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:59:04,644 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:59:04.644008+00:00
+INFO 2025-05-22 18:59:04,644 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:59:04,644 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:59:04.644008+00:00 for customer testuser
+INFO 2025-05-22 18:59:04,644 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 15:59:04.644008+00:00 for customer testuser
+INFO 2025-05-22 18:59:04,783 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 18:59:04,783 models Country created: USA
+INFO 2025-05-22 18:59:04,784 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 18:59:04,784 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 18:59:04,784 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 15:59:04.784259+00:00
+INFO 2025-05-22 18:59:04,784 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 18:59:04,784 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 15:59:04.784259+00:00 for customer testuser
+INFO 2025-05-22 18:59:19,610 models Customer updated: Alex (ID: 6)
+INFO 2025-05-22 19:00:03,750 models Customer updated: Alex (ID: 6)
+INFO 2025-05-22 19:05:54,874 models Customer updated: Alex (ID: 6)
+INFO 2025-05-22 19:11:10,569 models Discount created: New Year (ID: 1) - 15%
+INFO 2025-05-22 19:11:54,293 models Country created: USA
+INFO 2025-05-22 19:11:54,434 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:11:54,710 models Country created: USA
+INFO 2025-05-22 19:11:54,710 models Genre created: Action
+INFO 2025-05-22 19:11:54,711 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:11:54,712 models Genre created: Action
+INFO 2025-05-22 19:11:54,856 models Country created: USA
+INFO 2025-05-22 19:11:54,857 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:11:54,857 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 19:11:54,858 models Country created: USA
+INFO 2025-05-22 19:11:54,858 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:11:54,858 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:11:54,859 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:11:54.858871+00:00
+INFO 2025-05-22 19:11:55,012 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:11:55,012 models Country created: USA
+INFO 2025-05-22 19:11:55,013 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:11:55,013 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:11:55,013 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:11:55.013316+00:00
+INFO 2025-05-22 19:11:55,013 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:11:55,013 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:11:55.013316+00:00 for customer testuser
+INFO 2025-05-22 19:11:55,163 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:11:55,164 models Country created: USA
+INFO 2025-05-22 19:11:55,164 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:11:55,164 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:11:55,165 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:11:55.164967+00:00
+INFO 2025-05-22 19:11:55,165 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:11:55,165 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:11:55.164967+00:00 for customer testuser
+INFO 2025-05-22 19:11:55,165 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 16:11:55.164967+00:00 for customer testuser
+INFO 2025-05-22 19:11:55,305 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:11:55,305 models Country created: USA
+INFO 2025-05-22 19:11:55,305 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:11:55,305 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:11:55,305 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:11:55.305681+00:00
+INFO 2025-05-22 19:11:55,305 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:11:55,306 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:11:55.305681+00:00 for customer testuser
+INFO 2025-05-22 19:12:14,184 models Country created: USA
+INFO 2025-05-22 19:12:14,324 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:12:14,598 models Country created: USA
+INFO 2025-05-22 19:12:14,598 models Genre created: Action
+INFO 2025-05-22 19:12:14,599 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:12:14,599 models Genre created: Action
+INFO 2025-05-22 19:12:14,737 models Country created: USA
+INFO 2025-05-22 19:12:14,737 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:12:14,737 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 19:12:14,738 models Country created: USA
+INFO 2025-05-22 19:12:14,738 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:12:14,738 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:12:14,738 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:12:14.738614+00:00
+INFO 2025-05-22 19:12:14,885 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:12:14,885 models Country created: USA
+INFO 2025-05-22 19:12:14,885 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:12:14,886 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:12:14,886 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:12:14.886050+00:00
+INFO 2025-05-22 19:12:14,886 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:12:14,886 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:12:14.886050+00:00 for customer testuser
+INFO 2025-05-22 19:12:15,033 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:12:15,034 models Country created: USA
+INFO 2025-05-22 19:12:15,034 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:12:15,034 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:12:15,034 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:12:15.034502+00:00
+INFO 2025-05-22 19:12:15,034 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:12:15,034 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:12:15.034502+00:00 for customer testuser
+INFO 2025-05-22 19:12:15,035 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 16:12:15.034502+00:00 for customer testuser
+INFO 2025-05-22 19:12:15,185 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:12:15,185 models Country created: USA
+INFO 2025-05-22 19:12:15,185 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:12:15,185 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:12:15,186 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:12:15.185959+00:00
+INFO 2025-05-22 19:12:15,186 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:12:15,186 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:12:15.185959+00:00 for customer testuser
+INFO 2025-05-22 19:12:30,504 models Country created: USA
+INFO 2025-05-22 19:12:30,642 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:12:30,920 models Country created: USA
+INFO 2025-05-22 19:12:30,920 models Genre created: Action
+INFO 2025-05-22 19:12:30,920 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:12:30,922 models Genre created: Action
+INFO 2025-05-22 19:12:31,062 models Country created: USA
+INFO 2025-05-22 19:12:31,063 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:12:31,063 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 19:12:31,063 models Country created: USA
+INFO 2025-05-22 19:12:31,063 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:12:31,064 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:12:31,064 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:12:31.064068+00:00
+INFO 2025-05-22 19:12:31,203 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:12:31,203 models Country created: USA
+INFO 2025-05-22 19:12:31,203 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:12:31,204 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:12:31,204 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:12:31.204087+00:00
+INFO 2025-05-22 19:12:31,204 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:12:31,204 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:12:31.204087+00:00 for customer testuser
+INFO 2025-05-22 19:12:31,342 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:12:31,342 models Country created: USA
+INFO 2025-05-22 19:12:31,342 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:12:31,342 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:12:31,342 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:12:31.342540+00:00
+INFO 2025-05-22 19:12:31,342 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:12:31,342 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:12:31.342540+00:00 for customer testuser
+INFO 2025-05-22 19:12:31,343 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 16:12:31.342540+00:00 for customer testuser
+INFO 2025-05-22 19:12:31,481 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:12:31,481 models Country created: USA
+INFO 2025-05-22 19:12:31,482 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:12:31,482 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:12:31,482 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:12:31.482204+00:00
+INFO 2025-05-22 19:12:31,482 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:12:31,482 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:12:31.482204+00:00 for customer testuser
+INFO 2025-05-22 19:13:19,253 models Country created: USA
+INFO 2025-05-22 19:13:19,390 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:13:19,678 models Country created: USA
+INFO 2025-05-22 19:13:19,679 models Genre created: Action
+INFO 2025-05-22 19:13:19,679 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:13:19,680 models Genre created: Action
+INFO 2025-05-22 19:13:19,823 models Country created: USA
+INFO 2025-05-22 19:13:19,824 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:13:19,824 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 19:13:19,824 models Country created: USA
+INFO 2025-05-22 19:13:19,825 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:13:19,825 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:13:19,825 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:13:19.825295+00:00
+INFO 2025-05-22 19:13:19,964 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:13:19,964 models Country created: USA
+INFO 2025-05-22 19:13:19,965 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:13:19,965 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:13:19,965 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:13:19.965161+00:00
+INFO 2025-05-22 19:13:19,965 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:13:19,965 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:13:19.965161+00:00 for customer testuser
+INFO 2025-05-22 19:13:20,105 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:13:20,105 models Country created: USA
+INFO 2025-05-22 19:13:20,106 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:13:20,106 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:13:20,106 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:13:20.106189+00:00
+INFO 2025-05-22 19:13:20,106 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:13:20,106 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:13:20.106189+00:00 for customer testuser
+INFO 2025-05-22 19:13:20,106 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 16:13:20.106189+00:00 for customer testuser
+INFO 2025-05-22 19:13:20,248 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:13:20,248 models Country created: USA
+INFO 2025-05-22 19:13:20,248 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:13:20,248 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:13:20,248 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:13:20.248715+00:00
+INFO 2025-05-22 19:13:20,248 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:13:20,249 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:13:20.248715+00:00 for customer testuser
+INFO 2025-05-22 19:16:58,435 models Country created: USA
+INFO 2025-05-22 19:16:58,573 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:16:58,849 models Country created: USA
+INFO 2025-05-22 19:16:58,849 models Genre created: Action
+INFO 2025-05-22 19:16:58,849 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:16:58,850 models Genre created: Action
+INFO 2025-05-22 19:16:58,988 models Country created: USA
+INFO 2025-05-22 19:16:58,988 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:16:58,988 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 19:16:58,989 models Country created: USA
+INFO 2025-05-22 19:16:58,989 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:16:58,989 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:16:58,989 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:16:58.989518+00:00
+INFO 2025-05-22 19:16:59,127 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:16:59,127 models Country created: USA
+INFO 2025-05-22 19:16:59,127 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:16:59,127 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:16:59,127 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:16:59.127660+00:00
+INFO 2025-05-22 19:16:59,127 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:16:59,128 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:16:59.127660+00:00 for customer testuser
+INFO 2025-05-22 19:16:59,265 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:16:59,265 models Country created: USA
+INFO 2025-05-22 19:16:59,265 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:16:59,265 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:16:59,265 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:16:59.265771+00:00
+INFO 2025-05-22 19:16:59,266 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:16:59,266 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:16:59.265771+00:00 for customer testuser
+INFO 2025-05-22 19:16:59,266 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 16:16:59.265771+00:00 for customer testuser
+INFO 2025-05-22 19:16:59,403 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:16:59,403 models Country created: USA
+INFO 2025-05-22 19:16:59,403 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:16:59,403 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:16:59,403 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:16:59.403592+00:00
+INFO 2025-05-22 19:16:59,403 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:16:59,403 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:16:59.403592+00:00 for customer testuser
+INFO 2025-05-22 19:18:16,997 models Country created: USA
+INFO 2025-05-22 19:18:17,141 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:18:17,432 models Country created: USA
+INFO 2025-05-22 19:18:17,432 models Genre created: Action
+INFO 2025-05-22 19:18:17,432 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:18:17,433 models Genre created: Action
+INFO 2025-05-22 19:18:17,572 models Country created: USA
+INFO 2025-05-22 19:18:17,573 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:18:17,573 models Review created: ID 1 for film 'Test Film' by user 'testuser'
+INFO 2025-05-22 19:18:17,573 models Country created: USA
+INFO 2025-05-22 19:18:17,573 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:18:17,573 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:18:17,574 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:18:17.573892+00:00
+INFO 2025-05-22 19:18:17,711 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:18:17,711 models Country created: USA
+INFO 2025-05-22 19:18:17,712 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:18:17,712 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:18:17,712 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:18:17.712228+00:00
+INFO 2025-05-22 19:18:17,712 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:18:17,712 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:18:17.712228+00:00 for customer testuser
+INFO 2025-05-22 19:18:17,849 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:18:17,849 models Country created: USA
+INFO 2025-05-22 19:18:17,849 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:18:17,850 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:18:17,850 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:18:17.850066+00:00
+INFO 2025-05-22 19:18:17,850 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:18:17,850 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:18:17.850066+00:00 for customer testuser
+INFO 2025-05-22 19:18:17,850 models Ticket created: ID 2 for film 'Test Film' at 2025-05-23 16:18:17.850066+00:00 for customer testuser
+INFO 2025-05-22 19:18:17,989 models Customer created: testuser (ID: 1)
+INFO 2025-05-22 19:18:17,989 models Country created: USA
+INFO 2025-05-22 19:18:17,989 models Film created: Test Film (ID: 1)
+INFO 2025-05-22 19:18:17,989 models CinemaHall created: Hall 1 (ID: 1)
+INFO 2025-05-22 19:18:17,989 models ShowTime created: ID 1 for film 'Test Film' at 2025-05-23 16:18:17.989545+00:00
+INFO 2025-05-22 19:18:17,989 models Discount created: Student Discount (ID: 1) - 20%
+INFO 2025-05-22 19:18:17,989 models Ticket created: ID 1 for film 'Test Film' at 2025-05-23 16:18:17.989545+00:00 for customer testuser
+INFO 2025-05-22 22:16:24,363 admin Portal view accessed by alex_brown
+INFO 2025-05-22 23:56:57,709 admin Portal view accessed by alex_brown
+ERROR 2025-05-22 23:56:57,742 api_services TMDB API Request Error: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/now_playing?api_key=5e5d50aab61e64c046157c26a25d5711&language=en-US&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1077d8970>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO 2025-05-22 23:56:57,742 api_services Fetching weather data for Minsk
+INFO 2025-05-22 23:56:57,882 api_services Successfully retrieved weather data for Minsk: 13.5°C, overcast clouds
+INFO 2025-05-22 23:57:03,377 admin Stats view accessed by alex_brown
+INFO 2025-05-22 23:57:03,566 chart_utils Generating all charts
+INFO 2025-05-22 23:57:03,566 chart_utils Generating genre distribution chart
+INFO 2025-05-22 23:57:03,630 chart_utils Generating popular films chart
+INFO 2025-05-22 23:57:03,699 chart_utils Generating age distribution chart
+INFO 2025-05-22 23:57:22,581 admin Portal view accessed by alex_brown
+INFO 2025-05-22 23:57:22,871 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-22 23:57:22,872 api_services Fetching weather data for Minsk
+INFO 2025-05-22 23:57:23,067 api_services Successfully retrieved weather data for Minsk: 13.5°C, overcast clouds
+INFO 2025-05-22 23:57:47,022 admin Stats view accessed by alex_brown
+INFO 2025-05-22 23:57:47,226 chart_utils Generating all charts
+INFO 2025-05-22 23:57:47,226 chart_utils Generating genre distribution chart
+INFO 2025-05-22 23:57:47,260 chart_utils Generating popular films chart
+INFO 2025-05-22 23:57:47,327 chart_utils Generating age distribution chart
+INFO 2025-05-23 14:02:59,854 admin Stats view accessed by admin
+INFO 2025-05-23 14:03:00,032 chart_utils Generating all charts
+INFO 2025-05-23 14:03:00,032 chart_utils Generating genre distribution chart
+INFO 2025-05-23 14:03:00,095 chart_utils Generating popular films chart
+INFO 2025-05-23 14:03:00,162 chart_utils Generating age distribution chart
+INFO 2025-05-23 14:03:57,661 admin Portal view accessed by admin
+ERROR 2025-05-23 14:03:57,679 api_services TMDB API Request Error: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/now_playing?api_key=5e5d50aab61e64c046157c26a25d5711&language=en-US&page=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10b14cfa0>: Failed to resolve 'api.themoviedb.org' ([Errno 8] nodename nor servname provided, or not known)"))
+INFO 2025-05-23 14:03:57,679 api_services Fetching weather data for Minsk
+ERROR 2025-05-23 14:03:57,682 api_services Connection error when accessing OpenWeather API for Minsk
+INFO 2025-05-23 14:04:44,831 admin Portal view accessed by admin
+INFO 2025-05-23 14:04:45,618 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-23 14:04:45,619 api_services Fetching weather data for Minsk
+INFO 2025-05-23 14:04:46,010 api_services Successfully retrieved weather data for Minsk: 13.3°C, overcast clouds
+INFO 2025-05-23 14:07:04,298 admin Portal view accessed by admin
+INFO 2025-05-23 14:07:04,794 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-23 14:07:04,795 api_services Fetching weather data for Minsk
+INFO 2025-05-23 14:07:05,663 api_services Successfully retrieved weather data for Minsk: 13.3°C, overcast clouds
+INFO 2025-05-23 16:05:57,969 models CinemaHall created: Hall 4 (ID: 5)
+INFO 2025-05-23 16:09:27,529 models Customer created: Nikolay (ID: 8)
+INFO 2025-05-23 16:10:07,531 models Customer created: Andrei (ID: 9)
+INFO 2025-05-23 16:10:56,936 admin Portal view accessed by admin
+INFO 2025-05-23 16:10:57,111 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-23 16:10:57,112 api_services Fetching weather data for Minsk
+INFO 2025-05-23 16:10:57,264 api_services Successfully retrieved weather data for Minsk: 12.2°C, overcast clouds
+INFO 2025-05-23 16:11:06,855 admin Portal view accessed by admin
+INFO 2025-05-23 16:11:06,961 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-23 16:11:06,962 api_services Fetching weather data for Minsk
+INFO 2025-05-23 16:11:07,079 api_services Successfully retrieved weather data for Minsk: 12.2°C, overcast clouds
+INFO 2025-05-23 16:12:52,033 admin Portal view accessed by admin
+INFO 2025-05-23 16:12:52,190 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-23 16:12:52,191 api_services Fetching weather data for Minsk
+INFO 2025-05-23 16:12:52,307 api_services Successfully retrieved weather data for Minsk: 12.2°C, overcast clouds
+INFO 2025-05-23 16:12:55,933 admin Stats view accessed by admin
+INFO 2025-05-23 16:12:56,117 chart_utils Generating all charts
+INFO 2025-05-23 16:12:56,117 chart_utils Generating genre distribution chart
+INFO 2025-05-23 16:12:56,168 chart_utils Generating popular films chart
+INFO 2025-05-23 16:12:56,234 chart_utils Generating age distribution chart
+INFO 2025-05-23 16:13:10,706 admin Stats view accessed by admin
+INFO 2025-05-23 16:13:10,888 chart_utils Generating all charts
+INFO 2025-05-23 16:13:10,888 chart_utils Generating genre distribution chart
+INFO 2025-05-23 16:13:10,952 chart_utils Generating popular films chart
+INFO 2025-05-23 16:13:11,018 chart_utils Generating age distribution chart
+INFO 2025-05-23 16:19:22,920 models Film updated: Laugh Out Loud (ID: 2)
+INFO 2025-05-23 16:20:08,668 models Film updated: Love in Paris (ID: 5)
+INFO 2025-05-23 16:20:59,779 models Film updated: The Secret Agent (ID: 7)
+INFO 2025-05-23 16:21:32,025 models Film updated: Family Vacation (ID: 8)
+INFO 2025-05-23 16:22:00,024 models Film updated: The Last Samurai (ID: 9)
+INFO 2025-05-23 16:22:51,142 models Customer created: admin (ID: 10)
+INFO 2025-05-23 16:25:48,584 models Ticket created: ID 285 for film 'Family Vacation' at 2025-05-26 01:49:14.555388+00:00 for customer john_doe
+INFO 2025-05-23 16:28:07,796 admin Portal view accessed by admin
+INFO 2025-05-23 16:28:07,946 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-23 16:28:07,946 api_services Fetching weather data for Minsk
+INFO 2025-05-23 16:28:08,096 api_services Successfully retrieved weather data for Minsk: 12.2°C, overcast clouds
+INFO 2025-05-23 16:31:02,801 admin Portal view accessed by admin
+INFO 2025-05-23 16:31:02,952 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-23 16:31:02,954 api_services Fetching weather data for Minsk
+INFO 2025-05-23 16:31:03,101 api_services Successfully retrieved weather data for Minsk: 12.2°C, overcast clouds
+INFO 2025-05-23 16:31:06,581 admin Portal view accessed by admin
+INFO 2025-05-23 16:31:06,698 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-23 16:31:06,699 api_services Fetching weather data for Minsk
+INFO 2025-05-23 16:31:06,814 api_services Successfully retrieved weather data for Minsk: 12.2°C, overcast clouds
+INFO 2025-05-23 17:16:42,643 admin Portal view accessed by admin
+INFO 2025-05-23 17:16:42,827 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-23 17:16:42,828 api_services Fetching weather data for Minsk
+INFO 2025-05-23 17:16:42,986 api_services Successfully retrieved weather data for Minsk: 11.8°C, overcast clouds
+INFO 2025-05-23 17:16:47,473 admin Stats view accessed by admin
+INFO 2025-05-23 17:16:47,656 chart_utils Generating all charts
+INFO 2025-05-23 17:16:47,656 chart_utils Generating genre distribution chart
+INFO 2025-05-23 17:16:47,710 chart_utils Generating popular films chart
+INFO 2025-05-23 17:16:47,776 chart_utils Generating age distribution chart
+INFO 2025-05-23 17:17:40,008 admin Portal view accessed by admin
+INFO 2025-05-23 17:17:40,122 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-23 17:17:40,122 api_services Fetching weather data for Minsk
+INFO 2025-05-23 17:17:40,242 api_services Successfully retrieved weather data for Minsk: 11.8°C, overcast clouds
+INFO 2025-05-23 17:21:23,486 admin Stats view accessed by admin
+INFO 2025-05-23 17:21:23,686 chart_utils Generating all charts
+INFO 2025-05-23 17:21:23,686 chart_utils Generating genre distribution chart
+INFO 2025-05-23 17:21:23,722 chart_utils Generating popular films chart
+INFO 2025-05-23 17:21:23,788 chart_utils Generating age distribution chart
+INFO 2025-05-24 19:40:43,826 admin Portal view accessed by Ted
+INFO 2025-05-24 19:40:44,167 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-24 19:40:44,167 api_services Fetching weather data for Minsk
+INFO 2025-05-24 19:40:44,391 api_services Successfully retrieved weather data for Minsk: 9.0°C, light rain
+INFO 2025-05-24 19:40:48,926 admin Stats view accessed by Ted
+INFO 2025-05-24 19:40:49,127 chart_utils Generating all charts
+INFO 2025-05-24 19:40:49,127 chart_utils Generating genre distribution chart
+INFO 2025-05-24 19:40:49,204 chart_utils Generating popular films chart
+INFO 2025-05-24 19:40:49,270 chart_utils Generating age distribution chart
+INFO 2025-05-24 19:43:25,413 admin Portal view accessed by admin
+INFO 2025-05-24 19:43:25,652 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-24 19:43:25,652 api_services Fetching weather data for Minsk
+INFO 2025-05-24 19:43:25,833 api_services Successfully retrieved weather data for Minsk: 9.0°C, light rain
+INFO 2025-05-24 19:43:31,967 admin Portal view accessed by admin
+INFO 2025-05-24 19:43:32,134 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-24 19:43:32,135 api_services Fetching weather data for Minsk
+INFO 2025-05-24 19:43:32,302 api_services Successfully retrieved weather data for Minsk: 9.0°C, light rain
+INFO 2025-05-24 19:43:33,804 admin Portal view accessed by admin
+INFO 2025-05-24 19:43:33,976 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-24 19:43:33,976 api_services Fetching weather data for Minsk
+INFO 2025-05-24 19:43:34,149 api_services Successfully retrieved weather data for Minsk: 9.0°C, light rain
+INFO 2025-05-24 19:43:34,653 admin Stats view accessed by admin
+INFO 2025-05-24 19:43:34,841 chart_utils Generating all charts
+INFO 2025-05-24 19:43:34,841 chart_utils Generating genre distribution chart
+INFO 2025-05-24 19:43:34,890 chart_utils Generating popular films chart
+INFO 2025-05-24 19:43:34,978 chart_utils Generating age distribution chart
+INFO 2025-05-24 19:43:42,238 admin Stats view accessed by admin
+INFO 2025-05-24 19:43:42,424 chart_utils Generating all charts
+INFO 2025-05-24 19:43:42,424 chart_utils Generating genre distribution chart
+INFO 2025-05-24 19:43:42,457 chart_utils Generating popular films chart
+INFO 2025-05-24 19:43:42,525 chart_utils Generating age distribution chart
+INFO 2025-05-24 19:50:43,266 models Customer created: Wart (ID: 11)
+INFO 2025-05-24 19:54:08,125 admin Portal view accessed by admin
+INFO 2025-05-24 19:54:08,356 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-24 19:54:08,357 api_services Fetching weather data for Minsk
+INFO 2025-05-24 19:54:08,559 api_services Successfully retrieved weather data for Minsk: 8.9°C, light rain
+INFO 2025-05-24 20:10:31,970 models Customer created: Qwen (ID: 12)
+INFO 2025-05-24 21:30:40,100 admin Portal view accessed by alex_brown
+INFO 2025-05-24 21:30:40,344 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-24 21:30:40,345 api_services Fetching weather data for Minsk
+INFO 2025-05-24 21:30:40,559 api_services Successfully retrieved weather data for Minsk: 8.0°C, overcast clouds
+INFO 2025-05-26 18:11:13,462 admin Stats view accessed by alex_brown
+INFO 2025-05-26 18:11:13,650 chart_utils Generating all charts
+INFO 2025-05-26 18:11:13,650 chart_utils Generating genre distribution chart
+INFO 2025-05-26 18:11:13,720 chart_utils Generating popular films chart
+INFO 2025-05-26 18:11:13,787 chart_utils Generating age distribution chart
+INFO 2025-05-26 18:12:41,881 admin Portal view accessed by admin
+ERROR 2025-05-26 18:12:41,943 api_services TMDB API Request Error: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/now_playing?api_key=5e5d50aab61e64c046157c26a25d5711&language=en-US&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1057a6080>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO 2025-05-26 18:12:41,943 api_services Fetching weather data for Minsk
+INFO 2025-05-26 18:12:42,077 api_services Successfully retrieved weather data for Minsk: 13.5°C, light rain
+INFO 2025-05-26 18:12:59,095 admin Portal view accessed by admin
+INFO 2025-05-26 18:12:59,500 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-26 18:12:59,500 api_services Fetching weather data for Minsk
+INFO 2025-05-26 18:12:59,861 api_services Successfully retrieved weather data for Minsk: 13.5°C, light rain
+INFO 2025-05-27 16:22:01,741 models Customer created: Rex (ID: 13)
+INFO 2025-05-27 17:03:22,905 admin Portal view accessed by admin
+INFO 2025-05-27 17:03:23,686 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 17:03:23,687 api_services Fetching weather data for Minsk
+INFO 2025-05-27 17:03:24,136 api_services Successfully retrieved weather data for Minsk: 13.4°C, overcast clouds
+INFO 2025-05-27 17:04:18,779 models Ticket created: ID 286 for film 'The Last Samurai' at 2025-05-25 23:49:14.555388+00:00 for customer Rex
+INFO 2025-05-27 18:09:47,410 models Review updated: ID 44 for film 'Laugh Out Loud' by user 'john_doe'
+INFO 2025-05-27 18:10:52,246 models Review created: ID 46 for film 'The Last Samurai' by user 'john_doe'
+INFO 2025-05-27 18:11:52,210 models Review updated: ID 2 for film 'Future World' by user 'john_doe'
+INFO 2025-05-27 18:12:07,239 models Review updated: ID 2 for film 'Future World' by user 'john_doe'
+INFO 2025-05-27 18:13:26,867 models Review updated: ID 2 for film 'Future World' by user 'john_doe'
+INFO 2025-05-27 18:15:47,897 models Review updated: ID 46 for film 'The Last Samurai' by user 'john_doe'
+INFO 2025-05-27 18:17:16,064 models Review updated: ID 2 for film 'Future World' by user 'john_doe'
+INFO 2025-05-27 18:17:19,573 models Review deleted: ID 2 for film 'Future World' by user 'john_doe'
+INFO 2025-05-27 18:18:40,318 models Review updated: ID 46 for film 'The Last Samurai' by user 'john_doe'
+INFO 2025-05-27 18:18:55,102 models Review updated: ID 30 for film 'Love in Paris' by user 'john_doe'
+INFO 2025-05-27 18:18:59,340 models Review updated: ID 30 for film 'Love in Paris' by user 'john_doe'
+INFO 2025-05-27 18:19:12,627 models Review updated: ID 30 for film 'Love in Paris' by user 'john_doe'
+INFO 2025-05-27 18:19:17,785 models Review deleted: ID 30 for film 'Love in Paris' by user 'john_doe'
+INFO 2025-05-27 19:25:36,252 models Review updated: ID 37 for film 'Future World' by user 'admin'
+INFO 2025-05-27 19:25:42,132 models Review updated: ID 37 for film 'Future World' by user 'admin'
+INFO 2025-05-27 19:25:45,430 models Review deleted: ID 37 for film 'Future World' by user 'admin'
+INFO 2025-05-27 19:26:38,443 models ShowTime created: ID 12 for film 'Love in Paris' at 2025-05-27 20:26:15+03:00
+INFO 2025-05-27 19:27:12,488 models Ticket created: ID 287 for film 'Love in Paris' at 2025-05-27 17:26:15+00:00 for customer john_doe
+INFO 2025-05-27 19:28:28,915 admin Portal view accessed by alex_brown
+INFO 2025-05-27 19:28:29,329 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 19:28:29,330 api_services Fetching weather data for Minsk
+INFO 2025-05-27 19:28:29,740 api_services Successfully retrieved weather data for Minsk: 13.4°C, light rain
+INFO 2025-05-27 19:28:45,749 admin Stats view accessed by alex_brown
+INFO 2025-05-27 19:28:45,937 chart_utils Generating all charts
+INFO 2025-05-27 19:28:45,937 chart_utils Generating genre distribution chart
+INFO 2025-05-27 19:28:46,011 chart_utils Generating popular films chart
+INFO 2025-05-27 19:28:46,077 chart_utils Generating age distribution chart
+INFO 2025-05-27 19:33:22,314 admin Portal view accessed by alex_brown
+INFO 2025-05-27 19:33:22,775 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 19:33:22,776 api_services Fetching weather data for Minsk
+INFO 2025-05-27 19:33:23,190 api_services Successfully retrieved weather data for Minsk: 13.4°C, light rain
+INFO 2025-05-27 19:33:23,386 admin Stats view accessed by alex_brown
+INFO 2025-05-27 19:33:23,571 chart_utils Generating all charts
+INFO 2025-05-27 19:33:23,571 chart_utils Generating genre distribution chart
+INFO 2025-05-27 19:33:23,604 chart_utils Generating popular films chart
+INFO 2025-05-27 19:33:23,670 chart_utils Generating age distribution chart
+INFO 2025-05-27 19:33:25,048 admin Portal view accessed by alex_brown
+INFO 2025-05-27 19:33:25,491 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 19:33:25,492 api_services Fetching weather data for Minsk
+INFO 2025-05-27 19:33:25,779 api_services Successfully retrieved weather data for Minsk: 13.4°C, light rain
+INFO 2025-05-27 19:50:11,085 admin Stats view accessed by alex_brown
+INFO 2025-05-27 19:50:11,266 chart_utils Generating all charts
+INFO 2025-05-27 19:50:11,266 chart_utils Generating genre distribution chart
+INFO 2025-05-27 19:50:11,315 chart_utils Generating popular films chart
+INFO 2025-05-27 19:50:11,383 chart_utils Generating age distribution chart
+INFO 2025-05-27 19:50:45,079 admin Stats view accessed by alex_brown
+INFO 2025-05-27 19:50:45,288 chart_utils Generating all charts
+INFO 2025-05-27 19:50:45,288 chart_utils Generating genre distribution chart
+INFO 2025-05-27 19:50:45,353 chart_utils Generating popular films chart
+INFO 2025-05-27 19:50:45,442 chart_utils Generating age distribution chart
+INFO 2025-05-27 19:53:50,775 admin Stats view accessed by alex_brown
+INFO 2025-05-27 19:53:50,963 chart_utils Generating all charts
+INFO 2025-05-27 19:53:50,963 chart_utils Generating genre distribution chart
+INFO 2025-05-27 19:53:51,008 chart_utils Generating popular films chart
+INFO 2025-05-27 19:53:51,101 chart_utils Generating age distribution chart
+INFO 2025-05-27 19:54:35,685 admin Stats view accessed by alex_brown
+INFO 2025-05-27 19:54:35,869 chart_utils Generating all charts
+INFO 2025-05-27 19:54:35,869 chart_utils Generating genre distribution chart
+INFO 2025-05-27 19:54:35,903 chart_utils Generating popular films chart
+INFO 2025-05-27 19:54:35,969 chart_utils Generating age distribution chart
+INFO 2025-05-27 20:46:59,664 admin Stats view accessed by alex_brown
+INFO 2025-05-27 20:46:59,854 chart_utils Generating all charts
+INFO 2025-05-27 20:46:59,854 chart_utils Generating genre distribution chart
+INFO 2025-05-27 20:46:59,907 chart_utils Generating popular films chart
+INFO 2025-05-27 20:46:59,978 chart_utils Generating age distribution chart
+INFO 2025-05-27 20:48:02,215 chart_utils Generating all charts
+INFO 2025-05-27 20:48:02,215 chart_utils Generating genre distribution chart
+INFO 2025-05-27 20:48:02,258 chart_utils Generating popular films chart
+INFO 2025-05-27 20:48:02,325 chart_utils Generating age distribution chart
+INFO 2025-05-27 20:48:58,998 chart_utils Generating all charts
+INFO 2025-05-27 20:48:58,998 chart_utils Generating genre distribution chart
+INFO 2025-05-27 20:48:59,044 chart_utils Generating popular films chart
+INFO 2025-05-27 20:48:59,143 chart_utils Generating age distribution chart
+INFO 2025-05-27 21:02:14,161 chart_utils Generating all charts
+INFO 2025-05-27 21:02:14,161 chart_utils Generating genre distribution chart
+INFO 2025-05-27 21:02:14,209 chart_utils Generating popular films chart
+INFO 2025-05-27 21:02:14,275 chart_utils Generating age distribution chart
+INFO 2025-05-27 21:07:15,231 chart_utils Generating all charts
+INFO 2025-05-27 21:07:15,232 chart_utils Generating genre distribution chart
+INFO 2025-05-27 21:07:15,286 chart_utils Generating popular films chart
+INFO 2025-05-27 21:07:15,356 chart_utils Generating age distribution chart
+INFO 2025-05-27 21:08:43,753 chart_utils Generating all charts
+INFO 2025-05-27 21:08:43,754 chart_utils Generating genre distribution chart
+INFO 2025-05-27 21:08:43,799 chart_utils Generating popular films chart
+INFO 2025-05-27 21:08:43,867 chart_utils Generating age distribution chart
+INFO 2025-05-27 22:20:28,689 chart_utils Generating all charts
+INFO 2025-05-27 22:20:28,690 chart_utils Generating genre distribution chart
+INFO 2025-05-27 22:20:28,742 chart_utils Generating popular films chart
+INFO 2025-05-27 22:20:28,810 chart_utils Generating age distribution chart
+INFO 2025-05-27 22:33:58,228 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:33:58,229 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:33:58,471 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 22:34:54,613 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:34:54,613 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:34:55,165 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 22:35:09,986 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:35:09,986 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:35:10,206 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 22:37:06,699 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:37:06,700 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:37:12,147 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 22:37:12,999 chart_utils Generating all charts
+INFO 2025-05-27 22:37:12,999 chart_utils Generating genre distribution chart
+INFO 2025-05-27 22:37:13,048 chart_utils Generating popular films chart
+INFO 2025-05-27 22:37:13,118 chart_utils Generating age distribution chart
+INFO 2025-05-27 22:37:18,530 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:37:18,531 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:37:22,497 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 22:39:17,956 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:39:17,958 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:39:21,125 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 22:39:21,298 chart_utils Generating all charts
+INFO 2025-05-27 22:39:21,298 chart_utils Generating genre distribution chart
+INFO 2025-05-27 22:39:21,338 chart_utils Generating popular films chart
+INFO 2025-05-27 22:39:21,409 chart_utils Generating age distribution chart
+INFO 2025-05-27 22:41:20,451 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:41:20,453 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:41:20,666 api_services Successfully retrieved weather data for Minsk: 11.5°C, light rain
+INFO 2025-05-27 22:43:23,126 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:43:23,127 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:43:23,315 api_services Successfully retrieved weather data for Minsk: 11.5°C, light rain
+INFO 2025-05-27 22:44:46,775 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:44:46,775 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:44:46,961 api_services Successfully retrieved weather data for Minsk: 11.5°C, light rain
+INFO 2025-05-27 22:46:10,289 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:46:10,289 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:46:10,893 api_services Successfully retrieved weather data for Minsk: 11.5°C, overcast clouds
+INFO 2025-05-27 22:49:27,518 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:49:27,518 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:49:27,732 api_services Successfully retrieved weather data for Minsk: 11.5°C, overcast clouds
+INFO 2025-05-27 22:52:02,406 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:52:02,407 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:52:02,586 api_services Successfully retrieved weather data for Minsk: 11.5°C, overcast clouds
+INFO 2025-05-27 22:52:47,304 chart_utils Generating all charts
+INFO 2025-05-27 22:52:47,304 chart_utils Generating genre distribution chart
+INFO 2025-05-27 22:52:47,367 chart_utils Generating popular films chart
+INFO 2025-05-27 22:52:47,437 chart_utils Generating age distribution chart
+INFO 2025-05-27 22:52:48,636 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:52:48,637 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:52:48,820 api_services Successfully retrieved weather data for Minsk: 11.5°C, overcast clouds
+INFO 2025-05-27 22:53:36,072 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:53:36,073 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:53:37,056 api_services Successfully retrieved weather data for Minsk: 11.5°C, overcast clouds
+INFO 2025-05-27 22:56:12,468 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:56:12,469 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:56:12,678 api_services Successfully retrieved weather data for Minsk: 11.5°C, overcast clouds
+INFO 2025-05-27 22:58:30,772 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:58:30,773 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:58:30,981 api_services Successfully retrieved weather data for Minsk: 11.5°C, overcast clouds
+INFO 2025-05-27 22:59:01,273 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 22:59:01,273 api_services Fetching weather data for Minsk
+INFO 2025-05-27 22:59:01,478 api_services Successfully retrieved weather data for Minsk: 11.5°C, overcast clouds
+INFO 2025-05-27 23:00:19,680 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:00:19,680 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:00:19,912 api_services Successfully retrieved weather data for Minsk: 11.5°C, overcast clouds
+INFO 2025-05-27 23:03:03,599 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:03:03,600 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:03:03,796 api_services Successfully retrieved weather data for Minsk: 11.5°C, overcast clouds
+INFO 2025-05-27 23:06:20,684 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:06:20,685 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:06:21,075 api_services Successfully retrieved weather data for Minsk: 11.5°C, overcast clouds
+INFO 2025-05-27 23:06:48,930 chart_utils Generating all charts
+INFO 2025-05-27 23:06:48,930 chart_utils Generating genre distribution chart
+INFO 2025-05-27 23:06:48,983 chart_utils Generating popular films chart
+INFO 2025-05-27 23:06:49,055 chart_utils Generating age distribution chart
+INFO 2025-05-27 23:06:51,016 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:06:51,016 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:06:51,501 api_services Successfully retrieved weather data for Minsk: 11.5°C, overcast clouds
+INFO 2025-05-27 23:06:56,862 chart_utils Generating all charts
+INFO 2025-05-27 23:06:56,862 chart_utils Generating genre distribution chart
+INFO 2025-05-27 23:06:56,895 chart_utils Generating popular films chart
+INFO 2025-05-27 23:06:57,018 chart_utils Generating age distribution chart
+INFO 2025-05-27 23:07:04,310 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:07:04,311 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:07:04,517 api_services Successfully retrieved weather data for Minsk: 11.5°C, overcast clouds
+INFO 2025-05-27 23:08:09,660 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:08:09,661 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:08:10,092 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 23:08:50,205 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:08:50,205 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:08:50,653 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 23:11:57,205 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:11:57,206 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:11:57,732 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 23:12:13,707 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:12:13,707 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:12:14,427 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 23:12:34,782 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:12:34,783 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:12:35,864 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 23:13:27,752 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:13:27,753 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:13:27,931 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+ERROR 2025-05-27 23:14:03,711 api_services TMDB API Request Error: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/now_playing?api_key=5e5d50aab61e64c046157c26a25d5711&language=en-US&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x105850250>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO 2025-05-27 23:14:03,712 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:14:03,832 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+ERROR 2025-05-27 23:15:26,448 api_services TMDB API Request Error: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/now_playing?api_key=5e5d50aab61e64c046157c26a25d5711&language=en-US&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x105da2d10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO 2025-05-27 23:15:26,449 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:15:26,566 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+ERROR 2025-05-27 23:15:52,993 api_services TMDB API Request Error: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/now_playing?api_key=5e5d50aab61e64c046157c26a25d5711&language=en-US&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10479f0d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO 2025-05-27 23:15:52,993 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:15:53,092 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 23:16:28,024 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:16:28,026 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:16:28,682 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 23:17:43,490 chart_utils Generating all charts
+INFO 2025-05-27 23:17:43,491 chart_utils Generating genre distribution chart
+INFO 2025-05-27 23:17:43,541 chart_utils Generating popular films chart
+INFO 2025-05-27 23:17:43,609 chart_utils Generating age distribution chart
+INFO 2025-05-27 23:17:52,246 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:17:52,247 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:17:52,452 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 23:18:48,037 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:18:48,038 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:18:48,243 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-27 23:19:09,107 chart_utils Generating all charts
+INFO 2025-05-27 23:19:09,107 chart_utils Generating genre distribution chart
+INFO 2025-05-27 23:19:09,153 chart_utils Generating popular films chart
+INFO 2025-05-27 23:19:09,221 chart_utils Generating age distribution chart
+INFO 2025-05-27 23:19:10,216 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-27 23:19:10,216 api_services Fetching weather data for Minsk
+INFO 2025-05-27 23:19:10,435 api_services Successfully retrieved weather data for Minsk: 11.6°C, light rain
+INFO 2025-05-29 16:09:15,309 chart_utils Generating all charts
+INFO 2025-05-29 16:09:15,310 chart_utils Generating genre distribution chart
+INFO 2025-05-29 16:09:15,377 chart_utils Generating popular films chart
+INFO 2025-05-29 16:09:15,445 chart_utils Generating age distribution chart
+INFO 2025-05-29 16:10:55,288 api_services Successfully fetched 5 movies from TMDB API
+INFO 2025-05-29 16:10:55,289 api_services Fetching weather data for Minsk
+INFO 2025-05-29 16:10:55,944 api_services Successfully retrieved weather data for Minsk: 17.8°C, overcast clouds
+INFO 2025-05-29 16:11:22,473 chart_utils Generating all charts
+INFO 2025-05-29 16:11:22,474 chart_utils Generating genre distribution chart
+INFO 2025-05-29 16:11:22,510 chart_utils Generating popular films chart
+INFO 2025-05-29 16:11:22,599 chart_utils Generating age distribution chart
+INFO 2025-05-29 16:19:13,549 chart_utils Generating all charts
+INFO 2025-05-29 16:19:13,549 chart_utils Generating genre distribution chart
+INFO 2025-05-29 16:19:13,583 chart_utils Generating popular films chart
+INFO 2025-05-29 16:19:13,649 chart_utils Generating age distribution chart

@@ -1,0 +1,494 @@
+{#{% extends "cinema/base.html" %}#}
+{##}
+{#{% block title %}Главная - Кинотеатр "Звезда"{% endblock %}#}
+{##}
+{#{% block content %}#}
+{##}
+{#<section class="py-4 bg-white rounded shadow-sm mb-5">#}
+{#    <div class="container">#}
+{#        <div class="row">#}
+{#            <div class="col-md-4">#}
+{#                <div class="card border-0 shadow-sm h-100">#}
+{#                    <div class="card-body">#}
+{#                        <h4 class="card-title mb-3">#}
+{#                            <i class="fas fa-user me-2 text-primary"></i>#}
+{#                            User Information#}
+{#                        </h4>#}
+{#                        <p><strong>Welcome,</strong> {{ current_user }}!</p>#}
+{#                        <p><strong>Current Date and Time (UTC+3):</strong><br>{{ formatted_datetime }}</p>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{##}
+{#            <!-- Latest Review Column -->#}
+{#            <div class="col-md-4">#}
+{#                <div class="card border-0 shadow-sm h-100">#}
+{#                    <div class="card-body">#}
+{#                        <h4 class="card-title mb-3">#}
+{#                            <i class="fas fa-comment-dots me-2 text-primary"></i>#}
+{#                            Latest Review#}
+{#                        </h4>#}
+{#                        {% if latest_review %}#}
+{#                            <div class="d-flex align-items-center mb-3">#}
+{#                                <span class="badge bg-primary me-2">{{ latest_review.rating }}/10</span>#}
+{#                                <h5 class="mb-0">{{ latest_review.film.title }}</h5>#}
+{#                            </div>#}
+{#                            <p class="card-text">#}
+{#                                {{ latest_review.text|truncatewords:20 }}#}
+{#                            </p>#}
+{#                            <p class="text-muted small">#}
+{#                                By {{ latest_review.user.username }} on {{ latest_review.created_at|date:"d.m.Y H:i" }}#}
+{#                            </p>#}
+{#                        {% else %}#}
+{#                            <p class="card-text">No reviews have been published yet.</p>#}
+{#                        {% endif %}#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{##}
+{#            <!-- About Company Column -->#}
+{#            <div class="col-md-4">#}
+{#                <div class="card border-0 shadow-sm h-100">#}
+{#                    <div class="card-body">#}
+{#                        <h4 class="card-title mb-3">#}
+{#                            <i class="fas fa-building me-2 text-primary"></i>#}
+{#                            About Our Cinema#}
+{#                        </h4>#}
+{#                        <p>#}
+{#                            <strong>Кинотеатр "Звезда"</strong> - это современный кинокомплекс,#}
+{#                            предлагающий лучшие фильмы в комфортной атмосфере.#}
+{#                        </p>#}
+{#                        <p>#}
+{#                            Основан в 2015 году, наш кинотеатр предлагает 5 современных залов с#}
+{#                            системой звука Dolby Atmos и кристально четким изображением в 4K.#}
+{#                        </p>#}
+{#                        <ul class="list-group list-group-flush mt-3">#}
+{#                            <li class="list-group-item bg-transparent ps-0"><i class="fas fa-map-marker-alt text-primary me-2"></i> ул. Кинематографистов, 123</li>#}
+{#                            <li class="list-group-item bg-transparent ps-0"><i class="fas fa-phone text-primary me-2"></i> +375 (29) 123-45-67</li>#}
+{#                            <li class="list-group-item bg-transparent ps-0"><i class="fas fa-envelope text-primary me-2"></i> info@cinema-star.by</li>#}
+{#                        </ul>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#</section>#}
+{##}
+{#<!-- Featured Films Section -->#}
+{#<section class="mb-5">#}
+{#    <h2 class="text-center mb-4">Featured Films</h2>#}
+{#    <div class="row">#}
+{#        {% for film in featured_films %}#}
+{#        <div class="col-md-4 mb-4">#}
+{#            <div class="card h-100 shadow-sm">#}
+{#                {% if film.poster %}#}
+{#                <img src="{{ film.poster.url }}" class="card-img-top" alt="{{ film.title }}">#}
+{#                {% else %}#}
+{#                <img src="https://via.placeholder.com/300x450?text=Movie+Poster" class="card-img-top" alt="{{ film.title }}">#}
+{#                {% endif %}#}
+{#                <div class="card-body">#}
+{#                    <h5 class="card-title">{{ film.title }}</h5>#}
+{#                    <p class="card-text">{{ film.description|truncatewords:20 }}</p>#}
+{#                    <div class="d-flex justify-content-between align-items-center">#}
+{#                        <div>#}
+{#                            {% for genre in film.genres.all %}#}
+{#                            <span class="badge bg-primary me-1">{{ genre.name }}</span>#}
+{#                            {% endfor %}#}
+{#                        </div>#}
+{#                        <small class="text-muted">{{ film.duration }} min</small>#}
+{#                    </div>#}
+{#                </div>#}
+{#                <div class="card-footer bg-transparent">#}
+{#                    <a href="#" class="btn btn-primary btn-sm">Book Tickets</a>#}
+{#                    <a href="#" class="btn btn-outline-secondary btn-sm">Details</a>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#        {% empty %}#}
+{#        <div class="col-12 text-center">#}
+{#            <p>No featured films available at the moment.</p>#}
+{#        </div>#}
+{#        {% endfor %}#}
+{#    </div>#}
+{#</section>#}
+{##}
+{#<!-- Film Catalog Section -->#}
+{#<section class="mb-5">#}
+{#    <div class="container">#}
+{#        <h2 class="text-center mb-4">Film Catalog</h2>#}
+{##}
+{#        <!-- Filter Form -->#}
+{#        <div class="card mb-4 shadow-sm">#}
+{#            <div class="card-header bg-primary text-white">#}
+{#                <h5 class="mb-0">Filter Films</h5>#}
+{#            </div>#}
+{#            <div class="card-body">#}
+{#                <form method="get" class="row g-3">#}
+{#                    <div class="col-md-6">#}
+{#                        <label for="title" class="form-label">Search by Title or Description</label>#}
+{#                        <input type="text" class="form-control" id="title" name="title" value="{{ title_query }}" placeholder="Enter keywords...">#}
+{#                    </div>#}
+{##}
+{#                    <div class="col-md-6">#}
+{#                        <label for="genre" class="form-label">Genre</label>#}
+{#                        <select class="form-select" id="genre" name="genre">#}
+{#                            <option value="">All Genres</option>#}
+{#                            {% for genre in all_genres %}#}
+{#                                <option value="{{ genre }}" {% if genre == genre_query %}selected{% endif %}>{{ genre }}</option>#}
+{#                            {% endfor %}#}
+{#                        </select>#}
+{#                    </div>#}
+{##}
+{#                    <div class="col-md-6">#}
+{#                        <label for="duration_min" class="form-label">Min Duration (minutes)</label>#}
+{#                        <input type="number" class="form-control" id="duration_min" name="duration_min" value="{{ duration_min }}" placeholder="Min duration">#}
+{#                    </div>#}
+{##}
+{#                    <div class="col-md-6">#}
+{#                        <label for="duration_max" class="form-label">Max Duration (minutes)</label>#}
+{#                        <input type="number" class="form-control" id="duration_max" name="duration_max" value="{{ duration_max }}" placeholder="Max duration">#}
+{#                    </div>#}
+{##}
+{#                    <div class="col-12 d-flex justify-content-between">#}
+{#                        <a href="{% url 'welcome_page' %}" class="btn btn-outline-secondary">Reset Filters</a>#}
+{#                        <button type="submit" class="btn btn-primary">Apply Filters</button>#}
+{#                    </div>#}
+{#                </form>#}
+{#            </div>#}
+{#        </div>#}
+{##}
+{#        <!-- Film List -->#}
+{#        <div class="row">#}
+{#            {% for film in films %}#}
+{#            <div class="col-md-4 col-lg-3 mb-4">#}
+{#                <div class="card h-100 shadow-sm">#}
+{#                    {% if film.poster %}#}
+{#                    <img src="{{ film.poster.url }}" class="card-img-top" alt="{{ film.title }}">#}
+{#                    {% else %}#}
+{#                    <img src="https://via.placeholder.com/300x450?text=Movie+Poster" class="card-img-top" alt="{{ film.title }}">#}
+{#                    {% endif %}#}
+{#                    <div class="card-body">#}
+{#                        <h5 class="card-title">{{ film.title }}</h5>#}
+{#                        <div class="d-flex justify-content-between align-items-center mb-2">#}
+{#                            <div>#}
+{#                                {% for genre in film.genres.all %}#}
+{#                                <span class="badge bg-primary me-1">{{ genre.name }}</span>#}
+{#                                {% endfor %}#}
+{#                            </div>#}
+{#                            <small class="text-muted">{{ film.duration }} min</small>#}
+{#                        </div>#}
+{#                        <p class="card-text small">{{ film.description|truncatewords:15 }}</p>#}
+{#                    </div>#}
+{#                    <div class="card-footer bg-transparent d-flex justify-content-between">#}
+{#                        <a href="#" class="btn btn-primary btn-sm">Book</a>#}
+{#                        <a href="#" class="btn btn-outline-secondary btn-sm">Details</a>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#            {% empty %}#}
+{#            <div class="col-12 text-center py-5">#}
+{#                <div class="alert alert-info">#}
+{#                    <i class="fas fa-info-circle me-2"></i> No films match your filter criteria. Please try different filters.#}
+{#                </div>#}
+{#            </div>#}
+{#            {% endfor %}#}
+{#        </div>#}
+{#    </div>#}
+{#</section>#}
+{#{% endblock %}#}
+
+
+{% extends "cinema/base.html" %}
+{% load static %}
+
+{% block title %}Главная - Кинотеатр "Звезда"{% endblock %}
+
+{% block content %}
+<!-- User Info, Latest Review, and About Cinema Section -->
+<section class="py-4 bg-white rounded shadow-sm mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h4 class="card-title mb-3">
+                            <i class="fas fa-user me-2 text-primary"></i>
+                            User Information
+                        </h4>
+                        <p><strong>Welcome,</strong> {{ current_user }}!</p>
+                        <p><strong>Current Date and Time (UTC):</strong><br>{{ formatted_datetime }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Latest Review Column -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h4 class="card-title mb-3">
+                            <i class="fas fa-comment-dots me-2 text-primary"></i>
+                            Latest Review
+                        </h4>
+                        {% if latest_review %}
+                            <div class="d-flex align-items-center mb-3">
+                                <span class="badge bg-primary me-2">{{ latest_review.rating }}/5</span>
+                                <h5 class="mb-0">{{ latest_review.film.title }}</h5>
+                            </div>
+                            <p class="card-text">
+                                {{ latest_review.text|truncatewords:20 }}
+                            </p>
+                            <p class="text-muted small">
+                                By {{ latest_review.user.username }} on {{ latest_review.created_at|date:"Y-m-d H:i:s" }}
+                            </p>
+                        {% else %}
+                            <p class="card-text">No reviews have been published yet.</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Company Column -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h4 class="card-title mb-3">
+                            <i class="fas fa-building me-2 text-primary"></i>
+                            About Our Cinema
+                        </h4>
+                        <p>
+                            <strong>Кинотеатр "Звезда"</strong> - это современный кинокомплекс,
+                            предлагающий лучшие фильмы в комфортной атмосфере.
+                        </p>
+                        <p>
+                            Основан в 2015 году, наш кинотеатр предлагает 5 современных залов с
+                            системой звука Dolby Atmos и кристально четким изображением в 4K.
+                        </p>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item bg-transparent ps-0"><i class="fas fa-map-marker-alt text-primary me-2"></i> ул. Кинематографистов, 123</li>
+                            <li class="list-group-item bg-transparent ps-0"><i class="fas fa-phone text-primary me-2"></i> +375 (29) 123-45-67</li>
+                            <li class="list-group-item bg-transparent ps-0"><i class="fas fa-envelope text-primary me-2"></i> info@cinema-star.by</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Films Section -->
+<section class="mb-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Featured Films</h2>
+        <div class="row">
+            {% for film in featured_films %}
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    {% if film.poster %}
+                    <img src="{{ film.poster.url }}" class="card-img-top" alt="{{ film.title }}">
+                    {% else %}
+                    <img src="https://via.placeholder.com/300x450?text=Movie+Poster" class="card-img-top" alt="{{ film.title }}">
+                    {% endif %}
+                    <div class="card-body">
+                        <h5 class="card-title">{{ film.title }}</h5>
+                        <p class="card-text">{{ film.description|truncatewords:20 }}</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                {% for genre in film.genres.all %}
+                                <span class="badge bg-primary me-1">{{ genre.name }}</span>
+                                {% endfor %}
+                            </div>
+                            <small class="text-muted">{{ film.duration }} min</small>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        {% if user.is_authenticated %}
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#reviewModal{{ film.id }}">
+                                Add Review
+                            </button>
+                        {% else %}
+                            <a href="{% url 'login' %}?next={{ request.path }}" class="btn btn-secondary btn-sm">Login to Review</a>
+                        {% endif %}
+                        <a href="{% url 'film_detail' film.id %}" class="btn btn-outline-secondary btn-sm">Details</a>
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <div class="col-12 text-center">
+                <p>No featured films available at the moment.</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Film Catalog Section -->
+<section class="mb-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Film Catalog</h2>
+
+        <!-- Filter Form -->
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">Filter Films</h5>
+            </div>
+            <div class="card-body">
+                <form method="get" class="row g-3">
+                    <div class="col-md-6">
+                        <label for="title" class="form-label">Search by Title or Description</label>
+                        <input type="text" class="form-control" id="title" name="title" value="{{ title_query }}" placeholder="Enter keywords...">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="genre" class="form-label">Genre</label>
+                        <select class="form-select" id="genre" name="genre">
+                            <option value="">All Genres</option>
+                            {% for genre in all_genres %}
+                                <option value="{{ genre }}" {% if genre == genre_query %}selected{% endif %}>{{ genre }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="duration_min" class="form-label">Min Duration (minutes)</label>
+                        <input type="number" class="form-control" id="duration_min" name="duration_min" value="{{ duration_min }}" placeholder="Min duration">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="duration_max" class="form-label">Max Duration (minutes)</label>
+                        <input type="number" class="form-control" id="duration_max" name="duration_max" value="{{ duration_max }}" placeholder="Max duration">
+                    </div>
+
+                    <div class="col-12 d-flex justify-content-between">
+                        <a href="{% url 'welcome_page' %}" class="btn btn-outline-secondary">Reset Filters</a>
+                        <button type="submit" class="btn btn-primary">Apply Filters</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Film List -->
+        <div class="row">
+            {% for film in films %}
+            <div class="col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    {% if film.poster %}
+                    <img src="{{ film.poster.url }}" class="card-img-top" alt="{{ film.title }}">
+                    {% else %}
+                    <img src="https://via.placeholder.com/300x450?text=Movie+Poster" class="card-img-top" alt="{{ film.title }}">
+                    {% endif %}
+                    <div class="card-body">
+                        <h5 class="card-title">{{ film.title }}</h5>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div>
+                                {% for genre in film.genres.all %}
+                                <span class="badge bg-primary me-1">{{ genre.name }}</span>
+                                {% endfor %}
+                            </div>
+                            <small class="text-muted">{{ film.duration }} min</small>
+                        </div>
+                        <p class="card-text small">{{ film.description|truncatewords:15 }}</p>
+                    </div>
+                    <div class="card-footer bg-transparent d-flex justify-content-between">
+                        {% if user.is_authenticated %}
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#reviewModal{{ film.id }}">
+                                Add Review
+                            </button>
+                        {% else %}
+                            <a href="{% url 'login' %}?next={{ request.path }}" class="btn btn-secondary btn-sm">Login to Review</a>
+                        {% endif %}
+                        <a href="{% url 'film_detail' film.id %}" class="btn btn-outline-secondary btn-sm">Details</a>
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <div class="col-12 text-center py-5">
+                <div class="alert alert-info">
+                    <i class="fas fa-info-circle me-2"></i> No films match your filter criteria. Please try different filters.
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Review Modals for all films - ONLY RENDERED FOR AUTHENTICATED USERS -->
+{% if user.is_authenticated %}
+    {% for film in films %}
+    <div class="modal fade" id="reviewModal{{ film.id }}" tabindex="-1" aria-labelledby="reviewModalLabel{{ film.id }}" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="reviewModalLabel{{ film.id }}">Review: {{ film.title }}</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form method="post" action="{% url 'add_review' film.id %}">
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            <label for="rating{{ film.id }}" class="form-label">Rating (1-5)</label>
+                            <select class="form-select" id="rating{{ film.id }}" name="rating" required>
+                                <option value="">Select rating</option>
+                                <option value="1">1 - Poor</option>
+                                <option value="2">2 - Fair</option>
+                                <option value="3">3 - Good</option>
+                                <option value="4">4 - Very Good</option>
+                                <option value="5">5 - Excellent</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="review_text{{ film.id }}" class="form-label">Your Review</label>
+                            <textarea class="form-control" id="review_text{{ film.id }}" name="text" rows="4" required></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Submit Review</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+    <!-- Also create modals for featured films if they're not in the main films list -->
+    {% for film in featured_films %}
+        {% if film not in films %}
+        <div class="modal fade" id="reviewModal{{ film.id }}" tabindex="-1" aria-labelledby="reviewModalLabel{{ film.id }}" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="reviewModalLabel{{ film.id }}">Review: {{ film.title }}</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" action="{% url 'add_review' film.id %}">
+                            {% csrf_token %}
+                            <div class="mb-3">
+                                <label for="rating{{ film.id }}" class="form-label">Rating (1-5)</label>
+                                <select class="form-select" id="rating{{ film.id }}" name="rating" required>
+                                    <option value="">Select rating</option>
+                                    <option value="1">1 - Poor</option>
+                                    <option value="2">2 - Fair</option>
+                                    <option value="3">3 - Good</option>
+                                    <option value="4">4 - Very Good</option>
+                                    <option value="5">5 - Excellent</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="review_text{{ film.id }}" class="form-label">Your Review</label>
+                                <textarea class="form-control" id="review_text{{ film.id }}" name="text" rows="4" required></textarea>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Submit Review</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+{% endblock %}

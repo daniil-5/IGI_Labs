@@ -1,0 +1,406 @@
+{% extends "cinema/base.html" %}
+{% load static %}
+
+{% block title %}Cinema Portal{% endblock %}
+
+{% block extra_css %}
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+
+  /* User info panel with exact formatting */
+  .user-info-panel {
+    background-color: #f8f8f8;
+    border-left: 4px solid #417690;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #333;
+    border-radius: 3px;
+  }
+
+  .user-info-panel p {
+    margin: 4px 0;
+  }
+
+  /* Portal styling */
+  .portal-header {
+    background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b);
+    color: white;
+    padding: 30px 0;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  }
+
+  .section-title {
+    position: relative;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+
+  .section-title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(to right, #3a1c71, #d76d77);
+  }
+
+  .card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  }
+
+  /* Fixed poster handling for film cards */
+  .film-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .poster-container {
+    position: relative;
+    width: 100%;
+    padding-top: 150%; /* 2:3 aspect ratio for movie posters */
+    overflow: hidden;
+    background-color: #e9ecef;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .poster-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Changed from cover to contain */
+    background-color: #000; /* Dark background for letterboxing */
+  }
+
+  .no-poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6c757d;
+  }
+
+  .film-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .film-card .card-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .film-card .btn {
+    background: linear-gradient(to right, #3a1c71, #d76d77);
+    border: none;
+    color: white;
+    font-weight: 500;
+    margin-top: auto;
+  }
+
+  .showtime-card {
+    padding: 15px;
+    margin-bottom: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  }
+
+  .showtime-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+  }
+
+  .showtime-time {
+    font-weight: 600;
+    color: #3a1c71;
+  }
+
+  .showtime-price {
+    font-weight: 600;
+    color: #d76d77;
+  }
+
+  .weather-card {
+    background: linear-gradient(to right, #3a1c71, #d76d77);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+
+  .weather-temp {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  .calendar-table th, .calendar-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+  }
+
+  .calendar-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+  }
+
+  .calendar-table .today {
+    background-color: #3a1c71;
+    color: white;
+    font-weight: 600;
+    border-radius: 10%;
+  }
+
+  /* Fixed Movie News Section with proper poster handling */
+  .movie-news-section {
+    margin-top: 30px;
+  }
+
+  .movie-news-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .movie-poster-container {
+    position: relative;
+    width: 100%;
+    padding-top: 150%; /* 2:3 aspect ratio for movie posters */
+    overflow: hidden;
+    background-color: #000; /* Dark background for letterboxing */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .movie-poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Changed from cover to contain */
+  }
+
+  .movie-poster-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6c757d;
+    background-color: #e9ecef;
+  }
+
+  .movie-news-content {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .movie-news-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+
+  .movie-news-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 0.85rem;
+  }
+
+  .movie-news-rating {
+    background: linear-gradient(to right, #d76d77, #ffaf7b);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: 500;
+  }
+
+  .movie-news-overview {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-top: auto;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+
+<!-- Portal Header -->
+<div class="container-fluid portal-header">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-8">
+        <h1 class="display-4 fw-bold">Cinema Portal</h1>
+        <p class="lead">Welcome to your ultimate cinema experience</p>
+        <p class="mb-0">Today is {{ current_date|date:"l, F j, Y" }} • {{ current_date|time:"H:i" }} {{ current_timezone }}</p>
+      </div>
+      {% if weather %}
+      <div class="col-md-4">
+        <div class="weather-card d-flex align-items-center">
+          {% if weather.icon %}
+          <img src="http://openweathermap.org/img/wn/{{ weather.icon }}@2x.png" alt="Weather" class="me-3" width="70">
+          {% endif %}
+          <div>
+            <h5 class="mb-1">{{ weather.city }}</h5>
+            <span class="weather-temp">{{ weather.temperature }}°C</span>
+            <p class="mb-0">{{ weather.description|title }}</p>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <!-- Featured Films Section -->
+    <div class="col-lg-8">
+      <h2 class="section-title">Featured Films</h2>
+      <div class="row">
+        {% for film in featured_films %}
+        <div class="col-md-4 mb-4">
+          <div class="card film-card">
+            <div class="poster-container">
+              {% if film.poster %}
+              <img src="{{ film.poster.url }}" class="poster-img" alt="{{ film.title }}">
+              {% else %}
+              <div class="no-poster">
+                <span>No poster</span>
+              </div>
+              {% endif %}
+            </div>
+            <div class="card-body">
+              <h5 class="card-title" title="{{ film.title }}">{{ film.title }}</h5>
+              <p class="card-text text-muted">{{ film.release_year }} • {{ film.duration }} min</p>
+              <p class="card-text">
+                <small class="text-muted">{{ film.genre }}</small>
+              </p>
+              <a href="{% url 'film_detail' film.id %}" class="btn btn-primary btn-sm w-100">View Details</a>
+            </div>
+          </div>
+        </div>
+        {% empty %}
+        <div class="col">
+          <div class="alert alert-info">No featured films available.</div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="col-lg-4">
+      <!-- Calendar Section -->
+      <div class="card mb-4">
+        <div class="card-header bg-white">
+          <h5 class="mb-0">{{ current_date|date:"F Y" }}</h5>
+        </div>
+        <div class="card-body">
+          <table class="calendar-table">
+            <thead>
+              <tr>
+                <th>Mo</th><th>Tu</th><th>We</th><th>Th</th><th>Fr</th><th>Sa</th><th>Su</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for week in calendar %}
+              <tr>
+                {% for day in week %}
+                <td {% if day == current_date.day %}class="today"{% endif %}>
+                  {% if day != 0 %}{{ day }}{% endif %}
+                </td>
+                {% endfor %}
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fixed Movie News Section - With proper poster handling -->
+  <div class="movie-news-section">
+    <h2 class="section-title">Movie News</h2>
+    <div class="row">
+      {% for movie in movie_news %}
+      <div class="col-md-3 mb-4">
+        <div class="card movie-news-card">
+          <div class="movie-poster-container">
+            {% if movie.poster_path %}
+            <img src="https://image.tmdb.org/t/p/w500{{ movie.poster_path }}" class="movie-poster" alt="{{ movie.title }}">
+            {% else %}
+            <div class="movie-poster-placeholder">
+              <span>No Image Available</span>
+            </div>
+            {% endif %}
+          </div>
+          <div class="movie-news-content">
+            <h5 class="movie-news-title">{{ movie.title }}</h5>
+            <div class="movie-news-meta">
+              <span class="movie-news-date">{{ movie.release_date }}</span>
+              <span class="movie-news-rating">{{ movie.vote_average }} ★</span>
+            </div>
+            <p class="movie-news-overview">{{ movie.overview }}</p>
+          </div>
+        </div>
+      </div>
+      {% empty %}
+      <div class="col-12">
+        <div class="alert alert-info">No movie news available.</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}

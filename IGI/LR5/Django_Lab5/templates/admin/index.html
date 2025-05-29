@@ -1,0 +1,16 @@
+{% extends "admin/index.html" %}
+{% load i18n %}
+
+{% block sidebar %}
+{{ block.super }}
+{% if custom_links %}
+<div class="module" style="margin-top: 10px;">
+    <h2>{% trans 'Custom Pages' %}</h2>
+    <ul>
+        {% for link in custom_links %}
+        <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+{% endblock %}

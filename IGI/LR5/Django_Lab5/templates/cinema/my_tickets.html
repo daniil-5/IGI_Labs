@@ -1,0 +1,249 @@
+{% extends "cinema/base.html" %}
+
+{% block title %}Мои билеты - Кинотеатр "Звезда"{% endblock %}
+
+{% block header %}
+<!-- Page Header -->
+<header class="page-header text-center">
+    <div class="container">
+        <h1 class="display-4">Мои билеты</h1>
+        <p class="lead">Управление вашими билетами на текущие и прошедшие сеансы</p>
+    </div>
+</header>
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <!-- Ticket Stats -->
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <h3 class="display-4 text-primary fw-bold mb-0">{{ active_count }}</h3>
+                    <p class="text-muted mb-0">Активных билетов</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <h3 class="display-4 text-secondary fw-bold mb-0">{{ past_count }}</h3>
+                    <p class="text-muted mb-0">История посещений</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <h3 class="display-4 text-success fw-bold mb-0">{{ total_count }}</h3>
+                    <p class="text-muted mb-0">Всего билетов</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search and Filter Bar -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <form method="get" class="row g-3">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-text bg-primary text-white">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <input type="text" name="search" class="form-control" placeholder="Поиск по названию фильма или залу" value="{{ search_query }}">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <select name="filter" class="form-select">
+                        <option value="all" {% if filter_type == 'all' %}selected{% endif %}>Все билеты</option>
+                        <option value="today" {% if filter_type == 'today' %}selected{% endif %}>На сегодня</option>
+                        <option value="week" {% if filter_type == 'week' %}selected{% endif %}>На эту неделю</option>
+                        <option value="month" {% if filter_type == 'month' %}selected{% endif %}>На этот месяц</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">Применить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Tickets Tabs -->
+    <ul class="nav nav-tabs mb-4" id="ticketsTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="active-tab" data-bs-toggle="tab" data-bs-target="#active-tickets" type="button" role="tab" aria-controls="active-tickets" aria-selected="true">
+                <i class="fas fa-ticket-alt me-2"></i>Активные билеты <span class="badge bg-primary ms-1">{{ active_count }}</span>
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="history-tab" data-bs-toggle="tab" data-bs-target="#ticket-history" type="button" role="tab" aria-controls="ticket-history" aria-selected="false">
+                <i class="fas fa-history me-2"></i>История посещений <span class="badge bg-secondary ms-1">{{ past_count }}</span>
+            </button>
+        </li>
+    </ul>
+
+    <div class="tab-content" id="ticketsTabsContent">
+        <!-- Active Tickets Tab -->
+        <div class="tab-pane fade show active" id="active-tickets" role="tabpanel" aria-labelledby="active-tab">
+            {% if active_tickets %}
+                <div class="row">
+                    {% for ticket in active_tickets %}
+                    <div class="col-md-6 mb-4">
+                        <div class="card shadow-sm h-100 ticket-card">
+                            <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">{{ ticket.showtime.film.title }}</h5>
+                                <span class="badge bg-light text-primary">{{ ticket.showtime.start_time|date:"d.m.Y" }}</span>
+                            </div>
+                            <div class="card-body">
+                                <div class="row mb-3">
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <i class="fas fa-film text-primary me-2"></i>
+                                            <strong>Фильм:</strong> {{ ticket.showtime.film.title }}
+                                        </div>
+                                        <div class="mb-3">
+                                            <i class="fas fa-clock text-primary me-2"></i>
+                                            <strong>Время:</strong> {{ ticket.showtime.start_time|date:"H:i" }}
+                                        </div>
+                                        <div class="mb-3">
+                                            <i class="fas fa-calendar text-primary me-2"></i>
+                                            <strong>Дата:</strong> {{ ticket.showtime.start_time|date:"d.m.Y" }}
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <i class="fas fa-door-open text-primary me-2"></i>
+                                            <strong>Зал:</strong> {{ ticket.showtime.hall.name }}
+                                        </div>
+                                        <div class="mb-3">
+                                            <i class="fas fa-couch text-primary me-2"></i>
+                                            <strong>Место:</strong> Ряд {{ ticket.seat_row }}, Место {{ ticket.seat_number }}
+                                        </div>
+                                        <div class="mb-3">
+                                            <i class="fas fa-money-bill-wave text-primary me-2"></i>
+                                            <strong>Цена:</strong> {{ ticket.final_price }} руб.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {% if ticket.showtime.film.poster %}
+                                <div class="text-center mb-3">
+                                    <img src="{{ ticket.showtime.film.poster.url }}" alt="{{ ticket.showtime.film.title }}" class="img-fluid rounded" style="max-height: 100px;">
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="alert alert-info text-center">
+                    <h4 class="alert-heading"><i class="fas fa-info-circle me-2"></i>У вас нет активных билетов</h4>
+                    <p>Вы пока не приобрели билеты на предстоящие сеансы.</p>
+                    <hr>
+                    <p class="mb-0">
+                        <a href="/" class="btn btn-primary">Перейти к афише</a>
+                    </p>
+                </div>
+            {% endif %}
+        </div>
+
+        <!-- Ticket History Tab -->
+        <div class="tab-pane fade" id="ticket-history" role="tabpanel" aria-labelledby="history-tab">
+            {% if past_tickets %}
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped">
+                        <thead class="table-primary">
+                            <tr>
+                                <th>Фильм</th>
+                                <th>Дата и время</th>
+                                <th>Зал</th>
+                                <th>Место</th>
+                                <th>Стоимость</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for ticket in past_tickets %}
+                            <tr>
+                                <td>
+                                    <strong>{{ ticket.showtime.film.title }}</strong>
+                                    {% if ticket.showtime.film.poster %}
+                                    <img src="{{ ticket.showtime.film.poster.url }}" alt="{{ ticket.showtime.film.title }}" width="40" class="ms-2 rounded">
+                                    {% endif %}
+                                </td>
+                                <td>{{ ticket.showtime.start_time|date:"d.m.Y H:i" }}</td>
+                                <td>{{ ticket.showtime.hall.name }}</td>
+                                <td>Ряд {{ ticket.seat_row }}, Место {{ ticket.seat_number }}</td>
+                                <td>{{ ticket.final_price }} руб.</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% else %}
+                <div class="alert alert-info text-center">
+                    <h4 class="alert-heading"><i class="fas fa-info-circle me-2"></i>У вас нет истории посещений</h4>
+                    <p>Вы пока не посетили ни одного сеанса в нашем кинотеатре.</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- No Tickets Message (if both are empty) -->
+    {% if not active_tickets and not past_tickets %}
+    <div class="card shadow-sm mb-4">
+        <div class="card-body text-center p-5">
+            <i class="fas fa-ticket-alt fa-4x text-muted mb-3"></i>
+            <h3>У вас пока нет билетов</h3>
+            <p class="text-muted">Приобретайте билеты на фильмы, и они появятся здесь</p>
+            <a href="/" class="btn btn-primary mt-3">Перейти к афише</a>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block extra_css %}
+.page-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 3rem 0;
+    margin-bottom: 3rem;
+}
+
+.ticket-card {
+    transition: transform 0.3s;
+}
+
+.ticket-card:hover {
+    transform: translateY(-5px);
+}
+
+.barcode-img {
+    height: 40px;
+    background: repeating-linear-gradient(90deg, #000, #000 2px, #fff 2px, #fff 4px);
+    margin: 5px 0;
+    position: relative;
+}
+
+.barcode-text {
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link {
+    color: var(--dark-color);
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.table th {
+    font-weight: 600;
+}
+{% endblock %}
